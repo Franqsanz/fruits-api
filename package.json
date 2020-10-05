@@ -1,0 +1,17 @@
+{
+  "name": "fruits-api",
+  "version": "1.0.0",
+  "description": "API GraphQL de frutas.",
+  "main": "graphql/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon graphql/index.js"
+  },
+  "keywords": [],
+  "author": "Franco Andrés Sánchez",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "graphql": "^15.3.0"
+  }
+}
