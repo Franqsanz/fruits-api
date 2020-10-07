@@ -69,5 +69,35 @@ module.exports = [
     life_cycle: "",
     climatic_zone: "",
     category: "Cítrico"
+  },
+  {
+    id: 8,
+    scientific_name: "",
+    vulgar_name: "Damasco",
+    origin: "",
+    harvest_time: "",
+    life_cycle: "",
+    climatic_zone: "",
+    category: "Cítrico"
+  },
+  {
+    id: 9,
+    scientific_name: "",
+    vulgar_name: "Ciruela",
+    origin: "",
+    harvest_time: "",
+    life_cycle: "",
+    climatic_zone: "",
+    category: ""
+  },
+  {
+    id: 10,
+    scientific_name: "",
+    vulgar_name: "Durazno",
+    origin: "",
+    harvest_time: "",
+    life_cycle: "",
+    climatic_zone: "",
+    category: ""
   }
 ];

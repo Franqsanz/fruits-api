@@ -28,7 +28,7 @@ const typeDefs = gql`
   type Query {
     Fruit(id: ID!): Fruit
     Fruits: [Fruits]
-    FruitsFilter(category: String!): [Fruits]
+    FilterFruits(category: String!): [Fruits]
   }
 
   type Mutation {

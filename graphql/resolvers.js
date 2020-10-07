@@ -3,8 +3,10 @@ const fruits = require('../fruits');
 const resolvers = {
   Query: {
     Fruits: () => fruits,
-    // Filtrado por "categoria", debo utilizar una regex.
-    FruitsFilter: (_, { category }) => fruits.filter(fruit => fruit.category == category),
+    // Filtrado por "categoria", ¿debo utilizar una regex?.
+    FilterFruits: (_, { category }) => {
+      return fruits.filter(fruit => fruit.category == category);
+    },
     Fruit: (_, { id }) => fruits.find(fruit => fruit.id == id)
   },
   Mutation: {
