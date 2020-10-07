@@ -3,9 +3,9 @@ const fruits = require('../fruits');
 const resolvers = {
   Query: {
     Fruits: () => fruits,
-    // Filtrado por "categoria", ¿debo utilizar una regex?.
-    FilterFruits: (_, { category }) => {
-      return fruits.filter(fruit => fruit.category == category);
+    // Filtrado por "Familia", ¿debo utilizar una regex?.
+    FilterFruits: (_, { family }) => {
+      return fruits.filter(fruit => fruit.family == family);
     },
     Fruit: (_, { id }) => fruits.find(fruit => fruit.id == id)
   },
@@ -14,23 +14,27 @@ const resolvers = {
       const {
         id,
         scientific_name,
-        vulgar_name,
+        tree_name,
+        fruit_name,
+        family,
+        description,
         origin,
         harvest_time,
         life_cycle,
         climatic_zone,
-        category
       } = args;
 
       const newFruit = {
         id: id,
         scientific_name: scientific_name,
-        vulgar_name: vulgar_name,
+        tree_name: tree_name,
+        fruit_name: fruit_name,
+        family: family,
+        description: description,
         origin: origin,
         harvest_time: harvest_time,
         life_cycle: life_cycle,
-        climatic_zone: climatic_zone,
-        category: category
+        climatic_zone: climatic_zone
       };
 
       fruits.push(newFruit);
@@ -40,18 +44,23 @@ const resolvers = {
       const {
         id,
         scientific_name,
-        vulgar_name,
+        tree_name,
+        fruit_name,
+        family,
+        description,
         origin,
         harvest_time,
         life_cycle,
         climatic_zone,
-        category
       } = args;
 
       const body = {
         id: id,
         scientific_name: scientific_name,
-        vulgar_name: vulgar_name,
+        tree_name: tree_name,
+        fruit_name: fruit_name,
+        family: family,
+        description: description,
         origin: origin,
         harvest_time: harvest_time,
         life_cycle: life_cycle,
