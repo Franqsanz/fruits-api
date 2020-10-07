@@ -5,7 +5,10 @@ module.exports = [
     vulgar_name: "Manzana",
     origin: "",
     harvest_time: "",
-    life_cycle: ""
+    life_cycle: "",
+    climatic_zone: "",
+    category: "",
+    // producing_countries: []
   },
   {
     id: 2,
@@ -13,7 +16,9 @@ module.exports = [
     vulgar_name: "Banana",
     origin: "",
     harvest_time: "",
-    life_cycle: ""
+    life_cycle: "",
+    climatic_zone: "",
+    category: ""
   },
   {
     id: 3,
@@ -21,15 +26,19 @@ module.exports = [
     vulgar_name: "Pera",
     origin: "",
     harvest_time: "",
-    life_cycle: ""
+    life_cycle: "",
+    climatic_zone: "",
+    category: ""
   },
   {
     id: 4,
     scientific_name: "",
-    vulgar_name: "Limon",
+    vulgar_name: "Limón",
     origin: "",
     harvest_time: "",
-    life_cycle: ""
+    life_cycle: "",
+    climatic_zone: "",
+    category: "Cítrico"
   },
   {
     id: 5,
@@ -37,7 +46,9 @@ module.exports = [
     vulgar_name: "Mandarina",
     origin: "",
     harvest_time: "",
-    life_cycle: ""
+    life_cycle: "",
+    climatic_zone: "",
+    category: "Cítrico"
   },
   {
     id: 6,
@@ -45,6 +56,18 @@ module.exports = [
     vulgar_name: "Naranja",
     origin: "",
     harvest_time: "",
-    life_cycle: ""
+    life_cycle: "",
+    climatic_zone: "",
+    category: "Cítrico"
+  },
+  {
+    id: 7,
+    scientific_name: "",
+    vulgar_name: "Pomelo",
+    origin: "",
+    harvest_time: "",
+    life_cycle: "",
+    climatic_zone: "",
+    category: "Cítrico"
   }
 ];

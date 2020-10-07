@@ -8,6 +8,9 @@ const typeDefs = gql`
     origin: String
     harvest_time: String
     life_cycle: String
+    climatic_zone: String
+    category: String
+    # producing_countries: countries
   }
 
   type Fruit {
@@ -17,11 +20,15 @@ const typeDefs = gql`
     origin: String
     harvest_time: String
     life_cycle: String
+    climatic_zone: String
+    category: String
+    # producing_countries: countries
   }
 
   type Query {
     Fruit(id: ID!): Fruit
     Fruits: [Fruits]
+    FruitsFilter(category: String!): [Fruits]
   }
 
   type Mutation {
@@ -32,6 +39,8 @@ const typeDefs = gql`
       origin: String!
       harvest_time: String!
       life_cycle: String!
+      climatic_zone: String!
+      category: String!
     ): Fruits!
 
     updateFruit(
@@ -41,6 +50,8 @@ const typeDefs = gql`
       origin: String!
       harvest_time: String!
       life_cycle: String!
+      climatic_zone: String!
+      category: String!
     ): Fruits!
 
     deleteFruit(id: ID!): Fruits!
