@@ -7,8 +7,9 @@ const typeDefs = gql`
     tree_name: String
     fruit_name: String
     family: String
-    description: String
     origin: String
+    description: String
+    bloom: String
     harvest_time: String
     life_cycle: String
     climatic_zone: String
@@ -21,8 +22,9 @@ const typeDefs = gql`
     tree_name: String
     fruit_name: String
     family: String
-    description: String
     origin: String
+    description: String
+    bloom: String
     harvest_time: String
     life_cycle: String
     climatic_zone: String
@@ -42,8 +44,9 @@ const typeDefs = gql`
       tree_name: String!
       fruit_name: String!
       family: String!
-      description: String!
       origin: String!
+      description: String!
+      bloom: String!
       harvest_time: String!
       life_cycle: String!
       climatic_zone: String!
@@ -55,8 +58,9 @@ const typeDefs = gql`
       tree_name: String!
       fruit_name: String!
       family: String!
-      description: String!
       origin: String!
+      description: String!
+      bloom: String!
       harvest_time: String!
       life_cycle: String!
       climatic_zone: String!

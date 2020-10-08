@@ -17,8 +17,9 @@ const resolvers = {
         tree_name,
         fruit_name,
         family,
-        description,
         origin,
+        description,
+        bloom,
         harvest_time,
         life_cycle,
         climatic_zone,
@@ -30,8 +31,9 @@ const resolvers = {
         tree_name: tree_name,
         fruit_name: fruit_name,
         family: family,
-        description: description,
         origin: origin,
+        description: description,
+        bloom: bloom,
         harvest_time: harvest_time,
         life_cycle: life_cycle,
         climatic_zone: climatic_zone
@@ -47,8 +49,9 @@ const resolvers = {
         tree_name,
         fruit_name,
         family,
-        description,
         origin,
+        description,
+        bloom,
         harvest_time,
         life_cycle,
         climatic_zone,
@@ -60,12 +63,12 @@ const resolvers = {
         tree_name: tree_name,
         fruit_name: fruit_name,
         family: family,
-        description: description,
         origin: origin,
+        description: description,
+        bloom: bloom,
         harvest_time: harvest_time,
         life_cycle: life_cycle,
         climatic_zone: climatic_zone,
-        category: category
       };
 
       const index = fruits.find((fruit) => fruit.id == args.id);
