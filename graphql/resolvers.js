@@ -20,7 +20,7 @@ const resolvers = {
         origin,
         description,
         bloom,
-        harvest_time,
+        maturation_fruit,
         life_cycle,
         climatic_zone,
       } = args;
@@ -34,7 +34,7 @@ const resolvers = {
         origin: origin,
         description: description,
         bloom: bloom,
-        harvest_time: harvest_time,
+        maturation_fruit: maturation_fruit,
         life_cycle: life_cycle,
         climatic_zone: climatic_zone
       };
@@ -52,7 +52,7 @@ const resolvers = {
         origin,
         description,
         bloom,
-        harvest_time,
+        maturation_fruit,
         life_cycle,
         climatic_zone,
       } = args;
@@ -66,7 +66,7 @@ const resolvers = {
         origin: origin,
         description: description,
         bloom: bloom,
-        harvest_time: harvest_time,
+        maturation_fruit: maturation_fruit,
         life_cycle: life_cycle,
         climatic_zone: climatic_zone,
       };
