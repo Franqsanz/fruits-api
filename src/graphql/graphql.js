@@ -1,4 +1,4 @@
-const { ApolloServer } = require('apollo-server');
+const { ApolloServer } = require('apollo-server-lambda');
 const resolvers = require('./resolvers');
 const typeDefs = require('./typeDefs');
 
@@ -7,8 +7,8 @@ const server = new ApolloServer({
   resolvers,
   playground: true,
   introspection: true,
-  cors: true
+  debug: true,
+  cors: true,
 });
 
-server.listen()
-  .then(({ url }) => console.log(`Server ready at ${url}`));
+exports.handler = server.createHandler();

@@ -1,4 +1,4 @@
-const fruits = require('../fruits');
+const fruits = require('../../data');
 
 const resolvers = {
   Query: {
