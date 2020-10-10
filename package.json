@@ -2,10 +2,10 @@
   "name": "fruits-api",
   "version": "1.0.0",
   "description": "API GraphQL de frutas.",
-  "main": "src/graphql/graphql.js",
+  "main": "src/graphql.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src/graphql",
-    "build": "./node_modules/.bin/netlify-lambda build src/graphql"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "keywords": [
     "API",
