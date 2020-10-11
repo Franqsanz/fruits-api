@@ -4,16 +4,25 @@
   "description": "API GraphQL de frutas.",
   "main": "src/graphql.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "./node_modules/.bin/netlify-lambda build src"
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
   },
   "keywords": [
     "API",
     "API GraphQL",
-    "GraphQL"
+    "GraphQL",
+    "Netlify",
+    "Lambda"
   ],
   "author": "Franco Andrés Sánchez",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Franqsanz/fruits-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Franqsanz/fruits-api/issues"
+  },
   "dependencies": {
     "apollo-server-lambda": "^2.18.2",
     "graphql": "^15.3.0",

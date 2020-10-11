@@ -1,4 +1,5 @@
 // Fuente de datos: Wikipedia.
+// Estos datos son aproximados.
 module.exports = [
   {
     id: 1,
@@ -36,22 +37,22 @@ module.exports = [
     origin: "Indomalaya",
     description: "Es un fruto comestible, botánicamente una baya, de varios tipos de grandes plantas herbáceas. A estas plantas de gran porte que tienen aspecto de arbolillo se las denomina plataneras, bananeros, bananeras, plátanos o bananos. Es un fruto con variables en tamaño (10 cm), color y firmeza, alargado, generalmente curvado y carnoso.",
     bloom: "",
-    maturation_fruit: "2 o 3 meses",
+    maturation_fruit: "2 a 3 meses",
     life_cycle: "1 año",
     climatic_zone: "Calido",
   },
   {
     id: 4,
-    scientific_name: "",
-    tree_name: "",
+    scientific_name: "Citrus x Limon",
+    tree_name: "Limonero",
     fruit_name: "Limón",
-    family: "Cítrico",
-    origin: "",
-    description: "",
-    bloom: "",
+    family: "Rutaceae",
+    origin: "Asia",
+    description: "Es un pequeño árbol frutal perenne. Su fruto es el limón. Una fruta comestible de sabor ácido y extremadamente fragante que se usa principalmente en la alimentación. Es un árbol que a menudo con espinas, puede alcanzar los 4 m de altura, con una copa muy ramificada.",
+    bloom: "Otoño y Invierno",
     maturation_fruit: "",
-    life_cycle: "",
-    climatic_zone: "",
+    life_cycle: "50-100 años",
+    climatic_zone: "Mediterráneo",
   },
   {
     id: 5,
