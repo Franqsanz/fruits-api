@@ -4,7 +4,8 @@
   "description": "API GraphQL de frutas.",
   "main": "src/graphql.js",
   "scripts": {
-    "build": ""
+    "start": "netlify dev",
+    "build": "netlify build"
   },
   "keywords": [
     "API",
