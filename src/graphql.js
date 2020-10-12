@@ -6,8 +6,7 @@ const server = new ApolloServer({
   resolvers,
   playground: true,
   introspection: true,
-  debug: true,
-  cors: true,
+  cors: { origin: '*' }
 });
 
 exports.handler = server.createHandler();

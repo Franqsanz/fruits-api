@@ -1,5 +1,6 @@
 // Fuente de datos: Wikipedia.
-// Estos datos son aproximados.
+// Estos datos son aproximados, ya que cada árbol tienen muchas variedades.
+
 module.exports = [
   {
     id: 1,
@@ -56,16 +57,16 @@ module.exports = [
   },
   {
     id: 5,
-    scientific_name: "",
-    tree_name: "",
+    scientific_name: "Citrus x Tangerina",
+    tree_name: "Mandarino",
     fruit_name: "Mandarina",
-    family: "Cítrico",
-    origin: "",
-    description: "",
-    bloom: "",
+    family: "Rutaceae",
+    origin: "Asia",
+    description: "Es un fruto del árbol mandarino. Es el citrico más similar a la naranja, aunque de menor tamaño, sabor más aromático y con mayor facilidad para quitar su piel en la mayoria de sus variedades, así como una acidez ligeramente inferior y una mayor proporción de azúcares simples.",
+    bloom: "Primavera",
     maturation_fruit: "",
-    life_cycle: "",
-    climatic_zone: "",
+    life_cycle: "100 años",
+    climatic_zone: "Tropical",
   },
   {
     id: 6,
