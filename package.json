@@ -1,7 +1,7 @@
 {
   "name": "fruits-api",
   "version": "1.0.0",
-  "description": "API GraphQL de frutas.",
+  "description": "API GraphQL de árboles frutales.",
   "main": "src/graphql.js",
   "scripts": {
     "start": "netlify-lambda serve src",
