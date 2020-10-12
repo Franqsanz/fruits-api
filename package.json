@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "apollo-server-lambda": "^2.18.2",
+    "encoding": "^0.1.13",
     "graphql": "^15.3.0"
   },
   "devDependencies": {
