@@ -4,8 +4,7 @@
   "description": "API GraphQL de frutas.",
   "main": "src/graphql.js",
   "scripts": {
-    "start": "netlify-lambda serve src",
-    "build": "netlify-lambda build src"
+    "build": ""
   },
   "keywords": [
     "API",
@@ -25,7 +24,6 @@
   },
   "dependencies": {
     "apollo-server-lambda": "^2.18.2",
-    "graphql": "^15.3.0",
-    "netlify-lambda": "^2.0.1"
+    "graphql": "^15.3.0"
   }
 }
