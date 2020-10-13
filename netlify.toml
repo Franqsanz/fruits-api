@@ -1,7 +1,7 @@
 [build]
-command = "npm run build"
-functions = "functions"
-publish = "build"
+  command = "npm run build"
+  functions = "functions"
+  publish = "dist"
 
 [[plugins]]
-package = "@netlify/plugin-functions-core"
+  package = "@netlify/plugin-functions-core"
