@@ -14,8 +14,8 @@
     "Netlify",
     "Lambda"
   ],
-  "author": "Franco Andrés Sánchez",
-  "license": "ISC",
+  "author": "Franco Andrés Sánchez <franqsanz.dev@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Franqsanz/fruits-api.git"
@@ -23,6 +23,7 @@
   "bugs": {
     "url": "https://github.com/Franqsanz/fruits-api/issues"
   },
+  "homepage": "https://github.com/Franqsanz/fruits-api#readme",
   "dependencies": {
     "apollo-server-lambda": "^2.18.2",
     "encoding": "^0.1.13",
