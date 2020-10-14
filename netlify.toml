@@ -3,5 +3,11 @@
   functions = "functions"
   publish = "src"
 
+[[redirects]]
+  from = "/graphql"
+  to = "/.netlify/functions/graphql"
+  status = 200
+  force = true
+
 [[plugins]]
   package = "@netlify/plugin-functions-core"
