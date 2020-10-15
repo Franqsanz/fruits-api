@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "API GraphQL de árboles frutales.",
   "main": "src/graphql.js",
+  "engines": {
+    "node": ">=12.13.1"
+  },
   "scripts": {
     "start": "netlify-lambda serve src",
     "build": "netlify-lambda build src"
