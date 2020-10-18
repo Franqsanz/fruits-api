@@ -88,7 +88,7 @@ module.exports = [
     fruit_name: "Pomelo",
     family: "Rutáceae",
     origin: "Polinesia",
-    description: "",
+    description: "Es un árbol perennifolio, de 5 a 6 m de altura, con la copa redondeada, el ramaje poco denso y el fuste ancho, alcanzando varios pies de diámetro; las ramas jóvenes presentan espinas cortas y flexibles en las axilas foliares. Las hojas son simples, alternas, ovadas, finamente dentadas, de entre 7 y 15 cm de largo, de superficie coriácea y color verde oscuro por el haz, ubicadas al cabo de pecíolos cortos y alados. Produce flores hermafroditas, fragantes, tetrámeras, blancas o purpúreas, formando racimos pequeños terminales o solitarias.",
     bloom: "",
     maturation_fruit: "",
     life_cycle: "",
