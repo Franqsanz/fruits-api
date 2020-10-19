@@ -30,7 +30,8 @@
   "dependencies": {
     "apollo-server-lambda": "^2.18.2",
     "encoding": "^0.1.13",
-    "graphql": "^15.3.0"
+    "graphql": "^15.3.0",
+    "graphql-depth-limit": "^1.1.0"
   },
   "devDependencies": {
     "netlify-lambda": "^2.0.1"
