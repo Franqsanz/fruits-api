@@ -59,7 +59,9 @@ Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API 
 | life_cycle        | String | Ciclo de vida del árbol           |
 | climatic_zone     | String | Zona climática del árbol          |
 
-### Consigue todos los árboles
+### Querys
+
+#### Consigue todos los árboles
 Puede acceder a la lista de los árboles con la siguiente `query`
 
 query de ejemplo
@@ -105,7 +107,7 @@ Respuesta:
 }
 ```
 
-### Consigue un solo árbol
+#### Consigue un solo árbol
 Puede obtener un solo árbol agregando el `id` como parametro: `(id: 5)`.
 
 query de ejemplo
@@ -137,7 +139,7 @@ Respuesta:
 }
 ```
 
-### Filtrado de árboles
+#### Filtrado de árboles
 También puede filtrar los árboles por `family`, incluyendo el parametro `(family: String)`, por ejemplo `(family: "Rosáceas")`.
 
 query de ejemplo
@@ -173,6 +175,85 @@ Respuesta:
     ]
   }
 }
+```
+
+### Mutations
+En esta API se pueden hacer Mutaciones, aunque los datos no se guardarán de forma persistente.
+Puedes agregar, actualizar y eliminar los datos.
+
+#### Como agregar un árbol
+
+```graphql
+  mutation addFruit {
+    addFruit(
+      id: 9
+      scientific_name: ""
+      tree_name: ""
+      fruit_name: "Ciruela"
+      family: ""
+      origin: ""
+      description: ""
+      bloom: ""
+      maturation_fruit: ""
+      life_cycle: ""
+      climatic_zone: ""
+    ) {
+      id
+      scientific_name
+      tree_name
+      fruit_name
+      family
+      origin
+      description
+      bloom
+      maturation_fruit
+      life_cycle
+      climatic_zone
+    }
+  }
+```
+
+#### Como actualizar un árbol
+
+```graphql
+  mutation updateFruit {
+     updateFruit(
+      id: 9
+      scientific_name: ""
+      tree_name: ""
+      fruit_name: "Ciruela"
+      family: ""
+      origin: ""
+      description: ""
+      bloom: ""
+      maturation_fruit: ""
+      life_cycle: ""
+      climatic_zone: ""
+    ) {
+      id
+      scientific_name
+      tree_name
+      fruit_name
+      family
+      origin
+      description
+      bloom
+      maturation_fruit
+      life_cycle
+      climatic_zone
+    }
+  }
+```
+
+#### Como eliminar un árbol
+
+```graphql
+  mutation deleteFruit {
+    deleteFruit(id: 9) {
+      id
+      scientific_name
+    }
+  }
 ```
 
 ---
