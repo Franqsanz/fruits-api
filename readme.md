@@ -59,7 +59,7 @@ Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API 
 | life_cycle        | String | Ciclo de vida del árbol           |
 | climatic_zone     | String | Zona climática del árbol          |
 
-### Querys
+### Type `Query`
 
 #### Consigue todos los árboles
 Puede acceder a la lista de los árboles con la siguiente `query`
@@ -177,9 +177,11 @@ Respuesta:
 }
 ```
 
-### Mutations
+### Type `Mutation`
 En esta API se pueden hacer Mutaciones, aunque los datos no se guardarán de forma persistente.
-Puedes agregar, actualizar y eliminar los datos.
+Puedes agregar, actualizar y eliminar.
+
+⚠ **_Todos los campos son obligatorios._**
 
 #### Como agregar un árbol
 
