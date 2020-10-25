@@ -39,7 +39,7 @@ Una vez ejecutada la API, si todo sale bien debe ver en su terminal el siguiente
 
 ![playground](./playground.png)
 
-Obviamente que el playground estará vacío usted deberá hacer las `querys`.
+Obviamente que el playground estará vacío usted deberá hacer las consultas.
 
 ## Intruducción
 Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API y le mostrará cómo hacer diferentes consultas.

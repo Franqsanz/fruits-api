@@ -1,5 +1,6 @@
 const { ApolloServer } = require('apollo-server-lambda');
 const depthLimit = require('graphql-depth-limit');
+
 const { typeDefs, resolvers } = require('./graphql/index');
 
 const server = new ApolloServer({
@@ -7,8 +8,7 @@ const server = new ApolloServer({
   resolvers,
   playground: true,
   introspection: true,
-  // Limitar la profundidad de la consulta.
-  validationRules: [depthLimit(1)],
+  validationRules: [depthLimit(2)], // Limitar la profundidad de la consulta.
   cors: { origin: '*' }
 });
 
