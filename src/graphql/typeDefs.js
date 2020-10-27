@@ -54,7 +54,6 @@ const typeDefs = gql`
       maturation_fruit: String!
       life_cycle: String!
       climatic_zone: String!
-      # producing_countries: [countries]
     ): Fruits!
 
     updateFruit(

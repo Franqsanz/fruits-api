@@ -36,7 +36,7 @@ const resolvers = {
         bloom: bloom,
         maturation_fruit: maturation_fruit,
         life_cycle: life_cycle,
-        climatic_zone: climatic_zone
+        climatic_zone: climatic_zone,
       };
 
       fruits.push(newFruit);

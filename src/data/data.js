@@ -122,6 +122,38 @@ module.exports = [
     maturation_fruit: "2 a 3 meses",
     life_cycle: "1 año",
     climatic_zone: "Calido",
+    producing_countries: [
+      {
+        country: "India",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "Filipinas",
+      },
+      {
+        country: "Colombia",
+      },
+      {
+        country: "Indonesia",
+      },
+      {
+        country: "Ecuador",
+      },
+      {
+        country: "Brasil",
+      },
+      {
+        country: "Tanzania",
+      },
+      {
+        country: "Perú",
+      },
+      {
+        country: "Uganda",
+      },
+    ]
   },
   {
     id: 4,
