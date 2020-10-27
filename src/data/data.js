@@ -14,7 +14,50 @@ module.exports = [
     maturation_fruit: "Finales del verano o otoño",
     life_cycle: "60-80 años",
     climatic_zone: "Frio",
-    // producing_countries: []
+    producing_countries: [
+      {
+        country: "China",
+      },
+      {
+        country: "Estados Unidos",
+      },
+      {
+        country: "Polonia",
+      },
+      {
+        country: "Turquía",
+      },
+      {
+        country: "Irán",
+      },
+      {
+        country: "Italia",
+      },
+      {
+        country: "Rusia",
+      },
+      {
+        country: "Francia",
+      },
+      {
+        country: "Chile",
+      },
+      {
+        country: "Ucrania",
+      },
+      {
+        country: "Alemania",
+      },
+      {
+        country: "Brasil",
+      },
+      {
+        country: "Uzbekistán",
+      },
+      {
+        country: "Sudráfica",
+      },
+    ]
   },
   {
     id: 2,
@@ -28,6 +71,44 @@ module.exports = [
     maturation_fruit: "Invierno hasta Primavera",
     life_cycle: "65-400 años",
     climatic_zone: "Templados, Húmedos y Frios",
+    producing_countries: [
+      {
+        country: "China",
+      },
+      {
+        country: "Italia",
+      },
+      {
+        country: "Estados Unidos",
+      },
+      {
+        country: "España",
+      },
+      {
+        country: "Argentina",
+      },
+      {
+        country: "Alemania",
+      },
+      {
+        country: "Corea",
+      },
+      {
+        country: "Japón",
+      },
+      {
+        country: "Turquía",
+      },
+      {
+        country: "Chile",
+      },
+      {
+        country: "Sudráfica",
+      },
+      {
+        country: "Austria",
+      },
+    ]
   },
   {
     id: 3,
@@ -80,6 +161,56 @@ module.exports = [
     maturation_fruit: "Julio hasta Febrero",
     life_cycle: "50 años",
     climatic_zone: "Templado y húmedo",
+    producing_countries: [
+      {
+        country: "Brasil",
+      },
+      {
+        country: "México",
+      },
+      {
+        country: "Argentina",
+      },
+      {
+        country: "Ecuador",
+      },
+      {
+        country: "Perú",
+      },
+      {
+        country: "Colombia",
+      },
+      {
+        country: "Belice",
+      },
+      {
+        country: "Cuba",
+      },
+      {
+        country: "Pakistán",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "India",
+      },
+      {
+        country: "Irán",
+      },
+      {
+        country: "Egipto",
+      },
+      {
+        country: "Turquía",
+      },
+      {
+        country: "Uruguay",
+      },
+      {
+        country: "Sudráfica",
+      },
+    ]
   },
   {
     id: 7,

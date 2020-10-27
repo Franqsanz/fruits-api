@@ -1,6 +1,10 @@
 const { gql } = require('apollo-server-lambda');
 
 const typeDefs = gql`
+  type countries {
+    country: String
+  }
+
   type Fruits {
     id: ID
     scientific_name: String
@@ -13,7 +17,7 @@ const typeDefs = gql`
     maturation_fruit: String
     life_cycle: String
     climatic_zone: String
-    # producing_countries: countries
+    producing_countries: [countries]
   }
 
   type Fruit {
@@ -28,7 +32,7 @@ const typeDefs = gql`
     maturation_fruit: String
     life_cycle: String
     climatic_zone: String
-    # producing_countries: countries
+    producing_countries: [countries]
   }
 
   type Query {
@@ -50,6 +54,7 @@ const typeDefs = gql`
       maturation_fruit: String!
       life_cycle: String!
       climatic_zone: String!
+      # producing_countries: [countries]
     ): Fruits!
 
     updateFruit(
