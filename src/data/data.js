@@ -167,6 +167,38 @@ module.exports = [
     maturation_fruit: "",
     life_cycle: "50-100 años",
     climatic_zone: "Mediterráneo",
+    producing_countries: [
+      {
+        country: "India",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "México",
+      },
+      {
+        country: "Argentina",
+      },
+      {
+        country: "Turquía",
+      },
+      {
+        country: "España",
+      },
+      {
+        country: "Brasil",
+      },
+      {
+        country: "Sudráfica",
+      },
+      {
+        country: "Irán",
+      },
+      {
+        country: "Estados Unidos",
+      },
+    ]
   },
   {
     id: 5,
@@ -180,6 +212,38 @@ module.exports = [
     maturation_fruit: "",
     life_cycle: "100 años",
     climatic_zone: "Tropical",
+    producing_countries: [
+      {
+        country: "Japón",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "Marruecos",
+      },
+      {
+        country: "Argentina",
+      },
+      {
+        country: "Turquía",
+      },
+      {
+        country: "España",
+      },
+      {
+        country: "Brasil",
+      },
+      {
+        country: "Pakistán",
+      },
+      {
+        country: "Irán",
+      },
+      {
+        country: "Egipto",
+      },
+    ]
   },
   {
     id: 6,
@@ -256,6 +320,7 @@ module.exports = [
     maturation_fruit: "Otoño hasta Invierno",
     life_cycle: "",
     climatic_zone: "Subtropical",
+    producing_countries: []
   },
   {
     id: 8,
@@ -269,6 +334,7 @@ module.exports = [
     maturation_fruit: "",
     life_cycle: "",
     climatic_zone: "",
+    producing_countries: []
   },
   {
     id: 9,
@@ -282,6 +348,7 @@ module.exports = [
     maturation_fruit: "",
     life_cycle: "",
     climatic_zone: "",
+    producing_countries: []
   },
   {
     id: 10,
@@ -295,5 +362,6 @@ module.exports = [
     maturation_fruit: "",
     life_cycle: "",
     climatic_zone: "",
+    producing_countries: []
   }
 ];
