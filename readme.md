@@ -58,6 +58,7 @@ Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API 
 | maturation_fruit  | String | Fecha de maduración del fruto     |
 | life_cycle        | String | Ciclo de vida del árbol           |
 | climatic_zone     | String | Zona climática del árbol          |
+| producing_countries     | Array | Países que producen los árboles frutales.          |
 
 ### Type `Query`
 
@@ -72,9 +73,10 @@ query allFruits {
     id
     scientific_name
     fruit_name
-    origin
     description
-    climatic_zone
+    producing_countries {
+      country
+    }
   }
 }
 ```
@@ -88,17 +90,31 @@ Respuesta:
         "id": "1",
         "scientific_name": "Malus Domestica",
         "fruit_name": "Manzana",
-        "origin": "Asia Central",
         "description": "La manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma redonda y sabor más o menos dulce, dependiendo de la variedad. La manzana es un árbol caducifolio, generalmente de 2 a 4,5 m (6 a 15 pies) de altura en cultivo y hasta 9 m (30 pies) en la naturaleza.",
-        "climatic_zone": "Frio"
+        "producing_countries": [
+          {
+            "country": "China",
+          },
+          {
+            "country": "Estados Unidos",
+          },
+          // ...
+        ]
       },
       {
         "id": "2",
         "scientific_name": "Pyrus Communis",
         "fruit_name": "Pera",
-        "origin": "Europa Oriental y Asia Menor",
         "description": "La pera es el fruto del peral, árbol de la familia de las rosáceas. El fruto es un pomo comestible de verde marron. Es una especie de árbol caducifolio, generalmente de 2 hasta 20 m de altura.",
-        "climatic_zone": "Templados, Húmedos y Frios"
+        "producing_countries": [
+          {
+            "country": "China",
+          },
+          {
+            "country": "Italia",
+          },
+          // ...
+        ]
       },
 
       // ...
