@@ -36,9 +36,10 @@ const typeDefs = gql`
   }
 
   type Query {
-    Fruit(id: ID!): Fruit
-    Fruits: [Fruits]
-    FilterFruits(family: String!): [Fruits]
+    fruit(id: ID!): Fruit
+    fruits: [Fruits]
+    filterFruitsFam(family: String!): [Fruits]
+    filterFruitsOri(origin: String!): [Fruits]
   }
 
   type Mutation {

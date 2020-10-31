@@ -2,12 +2,15 @@ const fruits = require('../data/data');
 
 const resolvers = {
   Query: {
-    Fruits: () => fruits,
-    // Filtrado por "Familia", ¿debo utilizar una regex?.
-    FilterFruits: (_, { family }) => {
+    fruits: () => fruits,
+    // Filtrado por "Familia" o "Origen", ¿debo utilizar una regex?.
+    filterFruitsFam: (_, { family }) => {
       return fruits.filter(fruit => fruit.family == family);
     },
-    Fruit: (_, { id }) => fruits.find(fruit => fruit.id == id)
+    filterFruitsOri: (_, { origin }) => {
+      return fruits.filter(fruit => fruit.origin == origin);
+    },
+    fruit: (_, { id }) => fruits.find(fruit => fruit.id == id)
   },
   Mutation: {
     addFruit: (_, args) => {

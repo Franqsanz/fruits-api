@@ -56,7 +56,7 @@ module.exports = [
       },
       {
         country: "Sudráfica",
-      },
+      }
     ]
   },
   {
@@ -107,7 +107,7 @@ module.exports = [
       },
       {
         country: "Austria",
-      },
+      }
     ]
   },
   {
@@ -152,7 +152,7 @@ module.exports = [
       },
       {
         country: "Uganda",
-      },
+      }
     ]
   },
   {
@@ -197,7 +197,7 @@ module.exports = [
       },
       {
         country: "Estados Unidos",
-      },
+      }
     ]
   },
   {
@@ -242,7 +242,7 @@ module.exports = [
       },
       {
         country: "Egipto",
-      },
+      }
     ]
   },
   {
@@ -305,7 +305,7 @@ module.exports = [
       },
       {
         country: "Sudráfica",
-      },
+      }
     ]
   },
   {
@@ -320,7 +320,29 @@ module.exports = [
     maturation_fruit: "Otoño hasta Invierno",
     life_cycle: "",
     climatic_zone: "Subtropical",
-    producing_countries: []
+    producing_countries: [
+      {
+        country: "China",
+      },
+      {
+        country: "México",
+      },
+      {
+        country: "Argentina",
+      },
+      {
+        country: "India",
+      },
+      {
+        country: "Sudán",
+      },
+      {
+        country: "Israel",
+      },
+      {
+        country: "Túnez",
+      }
+    ]
   },
   {
     id: 8,

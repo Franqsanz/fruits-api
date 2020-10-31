@@ -65,11 +65,11 @@ Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API 
 #### Consigue todos los árboles
 Puede acceder a la lista de los árboles con la siguiente `query`
 
-query de ejemplo
+Query de ejemplo:
 
 ```graphql
 query allFruits {
-  Fruits {
+  fruits {
     id
     scientific_name
     fruit_name
@@ -85,7 +85,7 @@ Respuesta:
 ```json
 {
   "data": {
-    "Fruits": [
+    "fruits": [
       {
         "id": "1",
         "scientific_name": "Malus Domestica",
@@ -126,11 +126,11 @@ Respuesta:
 #### Consigue un solo árbol
 Puede obtener un solo árbol agregando el `id` como parametro: `(id: 5)`.
 
-query de ejemplo
+Query de ejemplo:
 
 ```graphql
 query oneFruit {
-  Fruit(id: 5) {
+  fruit(id: 5) {
     id
     scientific_name
     tree_name
@@ -144,7 +144,7 @@ Respuesta:
 ```json
 {
   "data": {
-    "Fruit": {
+    "fruit": {
       "id": "5",
       "scientific_name": "Citrus x Tangerina",
       "tree_name": "Mandarino",
@@ -156,13 +156,13 @@ Respuesta:
 ```
 
 #### Filtrado de árboles
-También puede filtrar los árboles por `family`, incluyendo el parametro `(family: String)`, por ejemplo `(family: "Rosáceas")`.
+También puede filtrar los árboles por `family` o por `origin`, por ejemplo: `(family: "Rosáceas")` o `(origin: "Asia")`.
 
-query de ejemplo
+Query de ejemplo:
 
 ```graphql
 query filterFruit {
- FilterFruits(family: "Rosáceas") {
+ filterFruitsFam(family: "Rosáceas") {
     id
     tree_name
     fruit_name
@@ -175,7 +175,7 @@ Respuesta:
 ```json
 {
   "data": {
-    "FilterFruits": [
+    "filterFruitsFam": [
       {
         "id": "1",
         "tree_name": "Manzano",
