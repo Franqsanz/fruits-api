@@ -346,17 +346,51 @@ module.exports = [
   },
   {
     id: 8,
-    scientific_name: "",
-    tree_name: "",
+    scientific_name: "Prunus armeniaca",
+    tree_name: "Damasco",
     fruit_name: "Damasco",
-    family: "",
-    origin: "",
-    description: "",
-    bloom: "",
-    maturation_fruit: "",
+    family: "Rosaceae",
+    origin: "Asia central",
+    description: "Es un árbol de 3 a 6 metros de altura, caducifolio, inerme o algo espinoso, con las hojas, pecioladas y estipuladas que miden de 5 a 10 cm por 3.5 a 8 cm, y son ovadas, suborbiculares o cordiformes, acuminadas, de margen doblemente aserrado, de haz y envés glabrescentes, rojizas cuando jóvenes, con algunas glándulas en la base del limbo. Las flores son solitarias o en fascículos de 2-6, subsésiles, con receptáculo de 5 a 7 mm, acopado o tubular, de interior anaranjado y exterior purpúreo o amarillento. Los sépalos, de 5 a 7 mm, son reflejos, de obovados a oblongos, de margen denticulado y subciliado, obtusos, purpúreos, mientras los pétalos miden 10 a 15 mm y son obovados, blancos o de un rosa pálido. ",
+    bloom: "Verano y Otoño",
+    maturation_fruit: "Primavera",
     life_cycle: "",
-    climatic_zone: "",
-    producing_countries: []
+    climatic_zone: "Templado",
+    producing_countries: [
+      {
+        country: "Turquía"
+      },
+      {
+        country: "Irán"
+      },
+      {
+        country: "Uzbekistán"
+      },
+      {
+        country: "Argentina"
+      },
+      {
+        country: "Italia"
+      },
+      {
+        country: "Pakistán"
+      },
+      {
+        country: "Ucrania"
+      },
+      {
+        country: "Francia"
+      },
+      {
+        country: "España"
+      },
+      {
+        country: "Japón"
+      },
+      {
+        country: "Marruecos"
+      },
+    ]
   },
   {
     id: 9,
