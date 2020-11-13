@@ -394,17 +394,48 @@ module.exports = [
   },
   {
     id: 9,
-    scientific_name: "",
-    tree_name: "",
+    scientific_name: "Prunus domestica",
+    tree_name: "Ciruelo",
     fruit_name: "Ciruela",
-    family: "",
-    origin: "",
-    description: "",
-    bloom: "",
-    maturation_fruit: "",
-    life_cycle: "",
-    climatic_zone: "",
-    producing_countries: []
+    family: "Rosaceae",
+    origin: "Cáucaso, Anatolia y Persia",
+    description: "La ciruela es una fruta de forma redondeada u oval con estructura acorazonada, atravesada por un surco que la recorre longitudinalmente dividiéndola prácticamente en dos. Su hueso es oblongo, con dos semillas en el interior que, transcurrido un mes, pierden su facultad germinativa.",
+    bloom: "Otoño",
+    maturation_fruit: "Invierno",
+    life_cycle: "30 años",
+    climatic_zone: "Templado",
+    producing_countries: [
+      {
+        country: "Turquía"
+      },
+      {
+        country: "Irán"
+      },
+      {
+        country: "China"
+      },
+      {
+        country: "Rumanía"
+      },
+      {
+        country: "Italia"
+      },
+      {
+        country: "India"
+      },
+      {
+        country: "Ucrania"
+      },
+      {
+        country: "Francia"
+      },
+      {
+        country: "España"
+      },
+      {
+        country: "Chile"
+      },
+    ]
   },
   {
     id: 10,
