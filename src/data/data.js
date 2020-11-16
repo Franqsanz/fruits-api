@@ -439,16 +439,47 @@ module.exports = [
   },
   {
     id: 10,
-    scientific_name: "",
-    tree_name: "",
+    scientific_name: "Prunus persica",
+    tree_name: "Duraznero",
     fruit_name: "Durazno",
-    family: "",
-    origin: "",
-    description: "",
-    bloom: "",
-    maturation_fruit: "",
-    life_cycle: "",
-    climatic_zone: "",
-    producing_countries: []
+    family: "Rosaceae",
+    origin: "Afganistán, China e Irán",
+    description: "Árbol de hasta 6-8 m de altura, caducifolio e inerme. Las hojas son oblongas-lanceoladas o elípticas, acuminadas, cuneadas en la base, aserradas con dientes glandulíferos, glabrescentes, con estípulas caducas denticuladas. Las flores son solitarias o geminadas y con numerosas brácteas. Los sépalos son erectos enteros y los pétalos denticulados en el ápice, de color rosado fuerte. El ovario puede ser pubescente o glabro y el fruto derivado, de 4-8 cm de diámetro, es una drupa comestible subglobosa con mesocarpo muy carnoso y endocarpo (hueso) profundamente surcado y alveolado con una sola semilla almendroide no comestible,6​ debido a la presencia, aunque en pequeña cantidad, de un precursor del cianuro, la amigdalina: un compuesto de glucosa, benzaldehído y cianuro que, bajo la acción de un fermento (emulsina) se descompone, produciendo ácido cianhídrico, potencialmente mortal.7​ Por tal motivo, su semilla es tóxica.",
+    bloom: "Invierno",
+    maturation_fruit: "Verano",
+    life_cycle: "5 años",
+    climatic_zone: "Invierno",
+    producing_countries: [
+      {
+        country: "Turquía"
+      },
+      {
+        country: "Irán"
+      },
+      {
+        country: "China"
+      },
+      {
+        country: "Grecia"
+      },
+      {
+        country: "Italia"
+      },
+      {
+        country: "India"
+      },
+      {
+        country: "Estados Unidos"
+      },
+      {
+        country: "Egipto"
+      },
+      {
+        country: "España"
+      },
+      {
+        country: "Chile"
+      },
+    ]
   }
 ];
