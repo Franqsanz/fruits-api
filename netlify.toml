@@ -8,6 +8,3 @@
   to = "/.netlify/functions/graphql"
   status = 200
   force = true
-
-[[plugins]]
-  package = "@netlify/plugin-functions-core"
