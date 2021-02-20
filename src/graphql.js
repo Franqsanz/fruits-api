@@ -9,7 +9,11 @@ const server = new ApolloServer({
   playground: true,
   introspection: true,
   validationRules: [depthLimit(2)], // Limitar la profundidad de la consulta.
-  cors: { origin: '*' }
 });
 
-exports.handler = server.createHandler();
+exports.handler = server.createHandler({
+  cors: {
+    origin: '*',
+    credentials: true,
+  }
+});
