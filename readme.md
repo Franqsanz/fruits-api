@@ -9,7 +9,9 @@ Esta API esta construida con Apollo Server Lambda + Netlify Lambda.
 > Los datos estan en [data.js](./src/data/data.js), por si deseas agregar más información. :)
 
 ### URL
-[https://fruits-api.netlify.app/graphql](https://fruits-api.netlify.app/graphql)
+Playground: [https://fruits-api.netlify.app/graphql](https://fruits-api.netlify.app/graphql)
+
+Web: [https://fruit-api.netlify.app/](https://fruit-api.netlify.app/)
 
 ### Obtener el codigo de este proyecto
 
