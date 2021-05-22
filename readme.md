@@ -158,13 +158,13 @@ Respuesta:
 ```
 
 #### Filtrado de árboles
-También puede filtrar los árboles por `family` o por `origin`, por ejemplo: `(family: "Rosáceas")` o `(origin: "Asia")`.
+También puede filtrar los árboles por `family` o por `origin`, por ejemplo: `(family: "Rosaceae")` o `(origin: "Asia")`.
 
 Query de ejemplo:
 
 ```graphql
 query filterFruit {
- filterFruitsFam(family: "Rosáceas") {
+ filterFruitsFam(family: "Rosaceae") {
     id
     tree_name
     fruit_name
@@ -182,13 +182,13 @@ Respuesta:
         "id": "1",
         "tree_name": "Manzano",
         "fruit_name": "Manzana",
-        "family": "Rosáceas"
+        "family": "Rosaceae"
       },
       {
         "id": "2",
         "tree_name": "Peral",
         "fruit_name": "Pera",
-        "family": "Rosáceas"
+        "family": "Rosaceae"
       }
     ]
   }

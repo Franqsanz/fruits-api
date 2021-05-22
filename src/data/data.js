@@ -1,5 +1,5 @@
 // Fuente de datos: Wikipedia.
-// Estos datos son aproximados, ya que cada árbol tienen muchas variedades.
+// Estos datos son aproximados, ya que cada árbol tiene muchas variedades.
 
 module.exports = [
   {
@@ -9,7 +9,7 @@ module.exports = [
     fruit_name: "Manzana",
     family: "Rosaceae",
     origin: "Asia Central",
-    description: "La manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma redonda y sabor más o menos dulce, dependiendo de la variedad. La manzana es un árbol caducifolio, generalmente de 2 a 4,5 m (6 a 15 pies) de altura en cultivo y hasta 9 m (30 pies) en la naturaleza.",
+    description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma redonda y sabor más o menos dulce, dependiendo de la variedad. La manzana es un árbol caducifolio, generalmente de 2 a 4,5 m (6 a 15 pies) de altura en cultivo y hasta 9 m (30 pies) en la naturaleza.",
     bloom: "Primavera",
     maturation_fruit: "Finales del verano o otoño",
     life_cycle: "60-80 años",
