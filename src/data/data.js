@@ -541,5 +541,65 @@ module.exports = [
         country: "Venezuela"
       },
     ]
+  },
+  {
+    id: 12,
+    scientific_name: "Hylocereus undatus",
+    tree_name: "Cactaceae",
+    fruit_name: "Pitahaya",
+    family: "	Cactaceae",
+    origin: "America Central",
+    description: "La pitahaya es una planta cactácea, y como tal, resistente a las sequías. La planta es un cactus suculento, rústico, de tallos largos triangulares. Suele enredarse en los árboles próximos alimentándose de la humedad de sus cortezas y trepa por las ramas a ocho o diez metros del suelo sin penetrar en tierra. La flor de la pitahaya, que es tubular, hermafrodita como la mayoría de las cactáceas, es bella pero breve, pues parece deslumbrante por la mañana y a medida que empieza a sentir el calor del sol se deshidrata súbitamente. Se abre una sola vez en las horas nocturnas y su penetrante aroma atrae a numerosos insectos. Se autofecunda pero también puede cruzarse, siendo los murciélagos los mejores polinizadores en su medio natural. La formación del fruto desde la polinización hasta la recolección dura de cuatro a ocho meses dependiendo de las temperaturas existentes.",
+    bloom: "Primavera",
+    maturation_fruit: "Primavera",
+    life_cycle: "15 años",
+    climatic_zone: "Regiones tropicales",
+    producing_countries: [
+      {
+        country: "Perú",
+      },
+      {
+        country: "Ecuador",
+      },
+      {
+        country: "Colombia",
+      },
+      {
+        country: "México"
+      },
+      {
+        country: "Venezuela"
+      },
+      {
+        country: "Guatemala"
+      },
+      {
+        country: "República Dominicana"
+      },
+      {
+        country: "Puerto Rico"
+      },
+      {
+        country: "Nicaragua"
+      },
+      {
+        country: "Vietnam"
+      },
+      {
+        country: "Israel"
+      },
+      {
+        country: "Sudráfica"
+      },
+      {
+        country: "Austria"
+      },
+      {
+        country: "Thailandia",
+      },
+      {
+        country: "Haití",
+      },
+    ]
   }
 ];
