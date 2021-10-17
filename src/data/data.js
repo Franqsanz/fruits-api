@@ -481,5 +481,65 @@ module.exports = [
         country: "Chile"
       },
     ]
+  },
+  {
+    id: 11,
+    scientific_name: "Mespilus germanica",
+    tree_name: "Níspero",
+    fruit_name: "Níspero",
+    family: "Rosaceae",
+    origin: "China",
+    description: "Árbol de hasta 5 m de altura, aunque también puede crecer con porte arbustivo, caducifolio. Posee una copa baja y extendida con ramas retorcidas. Las hojas son oblongo-lanceoladas (12 cm × 5 cm), puntiagudas con márgenes dentados o lisos; con envés pubescente y haz glabro verde brillante. Las flores surgen solitarias en el ápice de las ramas. Tienen de 3 a 5 cm de diámetro, con cinco pétalos blancos y numerosos estambres. El fruto es un pomo globular de unos 2,5 cm, al principio de color gris verdoso pasando a amarillo dorado al madurar. Contiene de tres a cinco semillas",
+    bloom: "Primavera",
+    maturation_fruit: "Primavera",
+    life_cycle: "30 años",
+    climatic_zone: "Calido",
+    producing_countries: [
+      {
+        country: "Japón"
+      },
+      {
+        country: "India"
+      },
+      {
+        country: "China"
+      },
+      {
+        country: "Pakistán"
+      },
+      {
+        country: "Italia"
+      },
+      {
+        country: "España"
+      },
+      {
+        country: "Grecia"
+      },
+      {
+        country: "Francia"
+      },
+      {
+        country: "Italia"
+      },
+      {
+        country: "Israel"
+      },
+      {
+        country: "Turquía"
+      },
+      {
+        country: "Estados Unidos"
+      },
+      {
+        country: "Argentina"
+      },
+      {
+        country: "Brasil"
+      },
+      {
+        country: "Venezuela"
+      },
+    ]
   }
 ];
