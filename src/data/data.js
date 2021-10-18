@@ -601,5 +601,35 @@ module.exports = [
         country: "Haití",
       },
     ]
+  },
+  {
+    id: 13,
+    scientific_name: "Tamarindus indica",
+    tree_name: "Tamarindo",
+    fruit_name: "Tamarindo",
+    family: "Fabaceae",
+    origin: "Africa",
+    description: "El tamarindo es el fruto del árbol del mismo nombre y es un alimento muy demandado en la cocina asiática y latinoamericana. Posee una vaina rígida, donde se encuentra su pulpa rodeada de unos hilos. El tamarindo tiene huesos en su interior similares a los de una aceituna o cereza. En condiciones optimas de desarrollo los árboles alcanzan hasta 10 metros de altura.  Su follaje es denso y frondoso, lo que lo hace atractivo  como un árbol de sombra.",
+    bloom: "Primavera",
+    maturation_fruit: "Primavera",
+    life_cycle: "200 años",
+    climatic_zone: "Cálido semiseco",
+    producing_countries: [
+      {
+        country: "India",
+      },
+      {
+        country: "Costa Rica",
+      },
+      {
+        country: "Tailandia",
+      },
+      {
+        country: "México"
+      },
+      {
+        country: "Perú"
+      },
+    ]
   }
 ];
