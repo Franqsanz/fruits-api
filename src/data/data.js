@@ -631,5 +631,50 @@ module.exports = [
         country: "Perú"
       },
     ]
+  },
+  {
+    id: 14,
+    scientific_name: "Mangifera indica",
+    tree_name: "Árbol de mango",
+    fruit_name: "Mango",
+    family: "Anacardiaceae",
+    origin: "India",
+    description: "El árbol de mango es un árbol perenne siempreverde perteneciente al género Mangifera. Es un árbol frutal tropical originario del continente asiático. Aunque existen diversas especies comestibles de este género, la más conocida y popular en cultivos es Mangifera indica (mango).",
+    bloom: "Invierno",
+    maturation_fruit: "Primavera y Verano",
+    life_cycle: "300 años",
+    climatic_zone: "Tropical",
+    producing_countries: [
+      {
+        country: "India"
+      },
+      {
+        country: "China"
+      },
+      {
+        country: "México"
+      },
+      {
+        country: "Tailandia"
+      },
+      {
+        country: "Pakistán"
+      },
+      {
+        country: "Filipinas"
+      },
+      {
+        country: "Indonesia"
+      },
+      {
+        country: "Nigeria"
+      },
+      {
+        country: "Brasil"
+      },
+      {
+        country: "Egipto"
+      }
+    ]
   }
 ];
