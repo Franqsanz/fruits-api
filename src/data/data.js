@@ -545,7 +545,7 @@ module.exports = [
   {
     id: 12,
     scientific_name: "Hylocereus undatus",
-    tree_name: "Cactaceae",
+    tree_name: "Pitahaya",
     fruit_name: "Pitahaya",
     family: "	Cactaceae",
     origin: "America Central",
@@ -635,7 +635,7 @@ module.exports = [
   {
     id: 14,
     scientific_name: "Mangifera indica",
-    tree_name: "Árbol de mango",
+    tree_name: "Mango",
     fruit_name: "Mango",
     family: "Anacardiaceae",
     origin: "India",

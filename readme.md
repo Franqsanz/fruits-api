@@ -1,4 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dabb6e07-14c2-40af-bf96-2c1a00f43fc9/deploy-status)](https://app.netlify.com/sites/fruits-api/deploys)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Franqsanz/fruits-api)
+![GitHub contributors](https://img.shields.io/github/contributors/Franqsanz/fruits-api)
 
 # Fruits API
 
@@ -47,20 +49,20 @@ Obviamente que el playground estará vacío usted deberá hacer las consultas.
 Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API y le mostrará cómo hacer diferentes consultas.
 
 ### Esquema de la API
-| Key               | Type   | Description                       |
-| ----------------- | ------ | --------------------------------- |
-| id                | ID     | ID del árbol                      |
-| scientific_name   | String | Nombre científico del árbol       |
-| tree_name         | String | Nombre del árbol                  |
-| fruit_name        | String | Nombre de la fruta                |
-| family            | String | Tipo de familia del árbol         |
-| origin            | String | Origen del árbol                  |
-| description       | String | Breve descripción de árbol       |
-| bloom             | String | Fecha de floración del árbol      |
-| maturation_fruit  | String | Fecha de maduración del fruto     |
-| life_cycle        | String | Ciclo de vida del árbol           |
-| climatic_zone     | String | Zona climática del árbol          |
-| producing_countries     | Array | Países que producen los árboles frutales.          |
+| Key                 | Type   | Description                               |
+| ------------------- | ------ | ----------------------------------------- |
+| id                  | ID     | ID del árbol                              |
+| scientific_name     | String | Nombre científico del árbol               |
+| tree_name           | String | Nombre del árbol                          |
+| fruit_name          | String | Nombre de la fruta                        |
+| family              | String | Tipo de familia del árbol                 |
+| origin              | String | Origen del árbol                          |
+| description         | String | Breve descripción de árbol                |
+| bloom               | String | Fecha de floración del árbol              |
+| maturation_fruit    | String | Fecha de maduración del fruto             |
+| life_cycle          | String | Ciclo de vida del árbol                   |
+| climatic_zone       | String | Zona climática del árbol                  |
+| producing_countries | Array  | Países que producen los árboles frutales. |
 
 ### Type `Query`
 
