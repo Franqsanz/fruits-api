@@ -676,5 +676,38 @@ module.exports = [
         country: "Egipto"
       }
     ]
+  },
+  {
+    id: 15,
+    scientific_name: "Annona muricata",
+    tree_name: "Guanábano",
+    fruit_name: "Guanábana",
+    family: "Annonaceae",
+    origin: " Cuba, Haití, República Dominicana,Puerto Rico y Jamaica",
+    description: "Árbol pequeño, de 3-8 m de altura y ramificado desde la base, despide mal olor cuando se le tritura. Las ramas son de color rojizo y sin vello, cilíndricas, arrugadas, ásperas y con numerosas lenticelas. La copa crece extendida, con follaje compacto. Las hojas son simples, oblongo-elípticas a oblongo-obovadas enteras, duras, lisas, de color verde oscuro y 5-15 cm de longitud.",
+    bloom: "Invierno",
+    maturation_fruit: "Primavera y Verano",
+    life_cycle: "No disponible",
+    climatic_zone: "Tropical",
+    producing_countries: [
+      {
+        country: "México"
+      },
+      {
+        country: "Perú"
+      },
+      {
+        country: "Brasil"
+      },
+      {
+        country: "Ecuador"
+      },
+      {
+        country: "Guatemala"
+      },
+      {
+        country: "Haití"
+      }
+    ]
   }
 ];
