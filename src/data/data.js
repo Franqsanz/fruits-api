@@ -709,5 +709,38 @@ module.exports = [
         country: "Haití"
       }
     ]
+  },
+  {
+    id: 16,
+    scientific_name: "Prunus avium",
+    tree_name: "Cerezo silvestre",
+    fruit_name: "Cereza",
+    family: "Rosaceae",
+    origin: "Europa y el occidente asiático",
+    description: "Es un árbol de gran volumen que puede alcanzar los 30 m de altura. Las hojas son simples, aovadas a oblongas, con el margen crenado o aserrado, ligeramente acuminadas, y miden entre 6 y 15 cm de longitud y 3 a 8 cm de ancho. ",
+    bloom: "Invierno",
+    maturation_fruit: "Primavera",
+    life_cycle: "40",
+    climatic_zone: "Templado",
+    producing_countries: [
+      {
+        country: "Japón"
+      },
+      {
+        country: "Estados Unidos"
+      },
+      {
+        country: "Noruega"
+      },
+      {
+        country: "Canadá"
+      },
+      {
+        country: "Corea del Sur"
+      },
+      {
+        country: "Países Bajos"
+      }
+    ]
   }
 ];
