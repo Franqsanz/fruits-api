@@ -5,12 +5,12 @@ const resolvers = {
     fruits: () => fruits,
     // Filtrado por "Familia" o "Origen", ¿debo utilizar una regex?.
     filterFruitsFam: (_, { family }) => {
-      return fruits.filter(fruit => fruit.family == family);
+      return fruits.filter(fruit => fruit.family === family);
     },
     filterFruitsOri: (_, { origin }) => {
-      return fruits.filter(fruit => fruit.origin == origin);
+      return fruits.filter(fruit => fruit.origin === origin);
     },
-    fruit: (_, { id }) => fruits.find(fruit => fruit.id == id)
+    fruit: (_, { id }) => fruits.find(fruit => fruit.id === id)
   },
   Mutation: {
     addFruit: (_, args) => {
@@ -74,12 +74,12 @@ const resolvers = {
         climatic_zone: climatic_zone,
       };
 
-      const index = fruits.find((fruit) => fruit.id == args.id);
+      const index = fruits.find((fruit) => fruit.id === args.id);
       if (index) Object.keys(body).forEach((key) => (index[key] = body[key]));
       return body;
     },
     deleteFruit: (_, { id }) => {
-      const deleteOne = fruits.findIndex(fruit => fruit.id == id);
+      const deleteOne = fruits.findIndex(fruit => fruit.id === id);
       if (deleteOne > -1) return fruits.splice(deleteOne, 1);
     }
   }
