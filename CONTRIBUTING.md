@@ -17,16 +17,15 @@ Para obtener el proyecto en tu ordenador local, sigue las instrucciones en el [R
 2. Crea una nueva rama de trabajo para que puedas hacer cambios sin que afectes el proyecto original hasta que estés listo para fusionar tu solicitud.
 
 - `git checkout -b NOMBRE_RAMA_NUEVA`
-  - crea y te cambia a esa rama nueva para trabajar
-  - si quieres verificar que yo no estas en `main` o `master` solo usa `git branch` para checar en que rama te encuentras
+  - crea y cambia a esa rama nueva para trabaja
+  - si quieres verificar que ya no estas en `main` o `master` solo usa `git branch` para chequear en que rama te encuentras
 - Has cualquier cambio que resuelva el problema al que fuiste asignado o que descubriste
 
 3. Cuando creas haber resuelto el problema, confirma los cambios y cárgalos a GitHub
 
 - `git add .` añade todos los archivos con cambios
 - `git commit -m 'que cambios hiciste'` confirma los cambios al repositorio
-- `git push` para subir las confirmaciones a GitHub
-
+- `git push origin NOMBRE_RAMA_NUEVA` para subir las confirmaciones a GitHub
 ## Solicitud de Extracción (PR)
 
 Cuando hayas subido la confirmación de cambios, crea una solicitud de extracción (Pull Request, PR), incluye:
