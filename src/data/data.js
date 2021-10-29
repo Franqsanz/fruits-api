@@ -657,8 +657,8 @@ module.exports = [
     bloom: 'Invierno',
     maturation_fruit: 'Primavera y Verano',
     life_cycle: '300 años',
-    climatic_zone: 'Tropical',
-    producing_countries: [
+, Puerto    climatic_zone: 'Tropical',
+, Puerto    producing_countries: [
       {
         country: 'India',
       },
@@ -693,6 +693,72 @@ module.exports = [
   },
   {
     id: 15,
+    scientific_name: "Annona muricata",
+    tree_name: "Guanábano",
+    fruit_name: "Guanábana",
+    family: "Annonaceae",
+    origin: "Cuba, Haití, República Dominicana, Puerto Rico y Jamaica",
+    description: "Árbol pequeño, de 3-8 m de altura y ramificado desde la base, despide mal olor cuando se le tritura. Las ramas son de color rojizo y sin vello, cilíndricas, arrugadas, ásperas y con numerosas lenticelas. La copa crece extendida, con follaje compacto. Las hojas son simples, oblongo-elípticas a oblongo-obovadas enteras, duras, lisas, de color verde oscuro y 5-15 cm de longitud.",
+    bloom: "Invierno",
+    maturation_fruit: "Primavera y Verano",
+    life_cycle: "No disponible",
+    climatic_zone: "Tropical",
+    producing_countries: [
+      {
+        country: "México"
+      },
+      {
+        country: "Perú"
+      },
+      {
+        country: "Brasil"
+      },
+      {
+        country: "Ecuador"
+      },
+      {
+        country: "Guatemala"
+      },
+      {
+        country: "Haití"
+      }
+    ]
+  },
+  {
+    id: 16,
+    scientific_name: "Prunus avium",
+    tree_name: "Cerezo silvestre",
+    fruit_name: "Cereza",
+    family: "Rosaceae",
+    origin: "Europa y el occidente asiático",
+    description: "Es un árbol de gran volumen que puede alcanzar los 30 m de altura. Las hojas son simples, aovadas a oblongas, con el margen crenado o aserrado, ligeramente acuminadas, y miden entre 6 y 15 cm de longitud y 3 a 8 cm de ancho. ",
+    bloom: "Invierno",
+    maturation_fruit: "Primavera",
+    life_cycle: "40",
+    climatic_zone: "Templado",
+    producing_countries: [
+      {
+        country: "Japón"
+      },
+      {
+        country: "Estados Unidos"
+      },
+      {
+        country: "Noruega"
+      },
+      {
+        country: "Canadá"
+      },
+      {
+        country: "Corea del Sur"
+      },
+      {
+        country: "Países Bajos"
+      },
+    ],
+  },
+  {
+    id: 17,
     scientific_name: 'Psidium Guajava',
     tree_name: 'Guayabo',
     fruit_name: 'Guayabas',
@@ -735,7 +801,7 @@ module.exports = [
     ],
   },
   {
-    id: 16,
+    id: 18,
     scientific_name: 'Persea americana',
     tree_name: 'Aguacate',
     fruit_name: 'Aguacate (o palta)',
@@ -775,7 +841,7 @@ module.exports = [
     ],
   },
   {
-    id: 17,
+    id: 19,
     scientific_name: 'Cocos nucifera',
     tree_name: 'Cocotero',
     fruit_name: 'Coco',
@@ -821,7 +887,7 @@ module.exports = [
     ],
   },
   {
-    id: 18,
+    id: 20,
     scientific_name: 'Averrhos carambola',
     tree_name: 'Carambolo',
     fruit_name: 'Carambola',
@@ -861,7 +927,7 @@ module.exports = [
     ],
   },
   {
-    id: 19,
+    id: 21,
     scientific_name: 'Ficus carica',
     tree_name: 'Higuera',
     fruit_name: 'Higo',
@@ -910,7 +976,7 @@ module.exports = [
     ],
   },
   {
-    id: 20,
+    id: 22,
     scientific_name: 'Punica granatum',
     tree_name: 'Granado',
     fruit_name: 'Granada',
@@ -950,7 +1016,7 @@ module.exports = [
     ],
   },
   {
-    id: 21,
+    id: 23,
     scientific_name: 'Olea europaea',
     tree_name: 'Olivo',
     fruit_name: 'Aceituna',
@@ -996,7 +1062,7 @@ module.exports = [
     ],
   },
   {
-    id: 22,
+    id: 24,
     scientific_name: 'Olea europaea',
     tree_name: 'Litchi',
     fruit_name: 'Lichi',
@@ -1027,7 +1093,7 @@ module.exports = [
     ],
   },
   {
-    id: 23,
+    id: 25,
     scientific_name: 'Durio zibethinus',
     tree_name: 'Durián',
     fruit_name: 'Durián',
@@ -1055,7 +1121,7 @@ module.exports = [
     ],
   },
   {
-    id: 24,
+    id: 26,
     scientific_name: 'Artocarpus heterophyllus',
     tree_name: 'Yaca o Nanca',
     fruit_name: 'Yaca',
@@ -1083,7 +1149,7 @@ module.exports = [
     ],
   },
   {
-    id: 25,
+    id: 27,
     scientific_name: 'Garcinia mangostana',
     tree_name: 'Mangostán',
     fruit_name: 'Mangostino',

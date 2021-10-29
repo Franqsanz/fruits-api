@@ -1,4 +1,8 @@
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Franqsanz/fruits-api)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dabb6e07-14c2-40af-bf96-2c1a00f43fc9/deploy-status)](https://app.netlify.com/sites/fruits-api/deploys)
+[![GitHub Pull Requests](https://img.shields.io/badge/PRs-welcome-brightgreen)](http://makeapullrequest.com)
+[![GitHub contributors](https://img.shields.io/github/contributors/Franqsanz/fruits-api)](https://github.com/Franqsanz/fruits-api/graphs/contributors)
+[![GitHub License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
 # Fruits API
 
@@ -7,6 +11,9 @@ Esta API esta construida con Apollo Server Lambda + Netlify Lambda.
 
 > En este proyecto no estoy utilizando una base de datos.
 > Los datos estan en [data.js](./src/data/data.js), por si deseas agregar más información. :)
+
+## Contribuir
+Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verfica si existe algún [issues](https://github.com/Franqsanz/fruits-api/issues), todos los PRs son bienvenidos.
 
 ### URL
 Playground: [https://fruits-api.netlify.app/graphql](https://fruits-api.netlify.app/graphql)
@@ -47,20 +54,20 @@ Obviamente que el playground estará vacío usted deberá hacer las consultas.
 Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API y le mostrará cómo hacer diferentes consultas.
 
 ### Esquema de la API
-| Key               | Type   | Description                       |
-| ----------------- | ------ | --------------------------------- |
-| id                | ID     | ID del árbol                      |
-| scientific_name   | String | Nombre científico del árbol       |
-| tree_name         | String | Nombre del árbol                  |
-| fruit_name        | String | Nombre de la fruta                |
-| family            | String | Tipo de familia del árbol         |
-| origin            | String | Origen del árbol                  |
-| description       | String | Breve descripción de árbol       |
-| bloom             | String | Fecha de floración del árbol      |
-| maturation_fruit  | String | Fecha de maduración del fruto     |
-| life_cycle        | String | Ciclo de vida del árbol           |
-| climatic_zone     | String | Zona climática del árbol          |
-| producing_countries     | Array | Países que producen los árboles frutales.          |
+| Key                 | Type   | Description                               |
+| ------------------- | ------ | ----------------------------------------- |
+| id                  | ID     | ID del árbol                              |
+| scientific_name     | String | Nombre científico del árbol               |
+| tree_name           | String | Nombre del árbol                          |
+| fruit_name          | String | Nombre de la fruta                        |
+| family              | String | Tipo de familia del árbol                 |
+| origin              | String | Origen del árbol                          |
+| description         | String | Breve descripción de árbol                |
+| bloom               | String | Fecha de floración del árbol              |
+| maturation_fruit    | String | Fecha de maduración del fruto             |
+| life_cycle          | String | Ciclo de vida del árbol                   |
+| climatic_zone       | String | Zona climática del árbol                  |
+| producing_countries | Array  | Países que producen los árboles frutales. |
 
 ### Type `Query`
 
@@ -204,76 +211,76 @@ Puedes agregar, actualizar y eliminar.
 #### Como agregar un árbol
 
 ```graphql
-  mutation addFruit {
-    addFruit(
-      id: 9
-      scientific_name: ""
-      tree_name: ""
-      fruit_name: "Ciruela"
-      family: ""
-      origin: ""
-      description: ""
-      bloom: ""
-      maturation_fruit: ""
-      life_cycle: ""
-      climatic_zone: ""
-    ) {
-      id
-      scientific_name
-      tree_name
-      fruit_name
-      family
-      origin
-      description
-      bloom
-      maturation_fruit
-      life_cycle
-      climatic_zone
-    }
-  }
+mutation addFruit {
+ addFruit(
+   id: 9
+   scientific_name: ""
+   tree_name: ""
+   fruit_name: "Ciruela"
+   family: ""
+   origin: ""
+   description: ""
+   bloom: ""
+   maturation_fruit: ""
+   life_cycle: ""
+   climatic_zone: ""
+ ) {
+   id
+   scientific_name
+   tree_name
+   fruit_name
+   family
+   origin
+   description
+   bloom
+   maturation_fruit
+   life_cycle
+   climatic_zone
+ }
+}
 ```
 
 #### Como actualizar un árbol
 
 ```graphql
-  mutation updateFruit {
-     updateFruit(
-      id: 9
-      scientific_name: ""
-      tree_name: ""
-      fruit_name: "Ciruela"
-      family: ""
-      origin: ""
-      description: ""
-      bloom: ""
-      maturation_fruit: ""
-      life_cycle: ""
-      climatic_zone: ""
-    ) {
-      id
-      scientific_name
-      tree_name
-      fruit_name
-      family
-      origin
-      description
-      bloom
-      maturation_fruit
-      life_cycle
-      climatic_zone
-    }
-  }
+mutation updateFruit {
+  updateFruit(
+   id: 9
+   scientific_name: ""
+   tree_name: ""
+   fruit_name: "Ciruela"
+   family: ""
+   origin: ""
+   description: ""
+   bloom: ""
+   maturation_fruit: ""
+   life_cycle: ""
+   climatic_zone: ""
+ ) {
+   id
+   scientific_name
+   tree_name
+   fruit_name
+   family
+   origin
+   description
+   bloom
+   maturation_fruit
+   life_cycle
+   climatic_zone
+ }
+}
 ```
 
 #### Como eliminar un árbol
 
 ```graphql
-  mutation deleteFruit {
-    deleteFruit(id: 9) {
-      id
-      scientific_name
-    }
-  }
+mutation deleteFruit {
+ deleteFruit(id: 9) {
+   id
+   scientific_name
+ }
+}
 ```
 
 ---
