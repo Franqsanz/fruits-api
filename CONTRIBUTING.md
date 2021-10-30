@@ -17,7 +17,7 @@ Para obtener el proyecto en tu ordenador local, sigue las instrucciones en el [R
 2. Crea una nueva rama de trabajo para que puedas hacer cambios sin que afectes el proyecto original hasta que estés listo para fusionar tu solicitud.
 
 - `git checkout -b NOMBRE_RAMA_NUEVA`
-  - crea y cambia a esa rama nueva para trabaja
+  - crea y cambia a esa rama nueva para trabajar
   - si quieres verificar que ya no estas en `main` o `master` solo usa `git branch` para chequear en que rama te encuentras
 - Has cualquier cambio que resuelva el problema al que fuiste asignado o que descubriste
 
