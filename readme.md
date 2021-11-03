@@ -24,24 +24,24 @@ Web: [https://fruit-api.netlify.app/](https://fruit-api.netlify.app/)
 
 1. Clonar repositorio:
 ```sh
-$ git clone https://github.com/Franqsanz/fruits-api.git
+git clone https://github.com/Franqsanz/fruits-api.git
 ```
 2. Entrar al directorio del repositorio:
 ```sh
-$ cd fruits-api
+cd fruits-api
 ```
 3. Instalar todas las dependecias:
 ```sh
-$ npm install
+npm install
 
 # O con yarn
-$ yarn
+yarn
 ```
 4. Una vez que instale todas las dependencias ejecute el siguiente comando:
 ```sh
-$ npm start
+npm start
 
-$ yarn start
+yarn start
 ```
 
 Una vez ejecutada la API, si todo sale bien debe ver en su terminal el siguiente mensaje: `Lambda server is listening on 9000`, abra su navegador y coloque en la URL `http://localhost:9000/graphql` y esto cargará el **GraphQL Playground**, debería ver lo siguiente:
