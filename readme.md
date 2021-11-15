@@ -1,10 +1,23 @@
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Franqsanz/fruits-api)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/dabb6e07-14c2-40af-bf96-2c1a00f43fc9/deploy-status)](https://app.netlify.com/sites/fruits-api/deploys)
-[![GitHub Pull Requests](https://img.shields.io/badge/PRs-welcome-brightgreen)](http://makeapullrequest.com)
-[![GitHub contributors](https://img.shields.io/github/contributors/Franqsanz/fruits-api)](https://github.com/Franqsanz/fruits-api/graphs/contributors)
-[![GitHub License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+<h1 align="center">Fruits API</h1>
+<p align="center">
+  <a aria-label="Open in Visual Studio Code" href="https://open.vscode.dev/Franqsanz/fruits-api">
+    <img alt="Open in Visual Studio Code" src="https://open.vscode.dev/badges/open-in-vscode.svg">
+  </a>
+  <a aria-label="Netlify Status" href="https://app.netlify.com/sites/fruits-api/deploys">
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/dabb6e07-14c2-40af-bf96-2c1a00f43fc9/deploy-status">
+  </a>
+  <a aria-label="License" href="LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg">
+  </a>
+  <a aria-label="GitHub Pull Requests" href="http://makeapullrequest.com">
+    <img alt="GitHub Pull Requests" src="https://img.shields.io/badge/PRs-welcome-brightgreen">
+  </a>
+  <a aria-label="GitHub contributors" href="https://github.com/Franqsanz/fruits-api/graphs/contributors">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Franqsanz/fruits-api">
+  </a>
+</p>
 
-# Fruits API
+---
 
 API GraphQL con datos de árboles frutales.
 Esta API esta construida con Apollo Server Lambda + Netlify Lambda.
@@ -13,12 +26,12 @@ Esta API esta construida con Apollo Server Lambda + Netlify Lambda.
 > Los datos estan en [data.js](./src/data/data.js), por si deseas agregar más información. :)
 
 ## Contribuir
-Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verfica si existe algún [issues](https://github.com/Franqsanz/fruits-api/issues), todos los PRs son bienvenidos.
+Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verifica si existe algún [issues](https://github.com/Franqsanz/fruits-api/issues), todos los PRs son bienvenidos.
 
-### URL
-Playground: [https://fruits-api.netlify.app/graphql](https://fruits-api.netlify.app/graphql)
+## URLs
+**Playground:** [https://fruits-api.netlify.app/graphql](https://fruits-api.netlify.app/graphql)
 
-Web: [https://fruit-api.netlify.app/](https://fruit-api.netlify.app/)
+**Web:** [https://fruit-api.netlify.app/](https://fruit-api.netlify.app/)
 
 ### Obtener el codigo de este proyecto
 
