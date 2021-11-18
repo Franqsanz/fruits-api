@@ -1,3 +1,4 @@
+const { UserInputError } = require('apollo-server-lambda');
 const fruits = require('../data/data');
 
 const resolvers = {
@@ -11,7 +12,19 @@ const resolvers = {
       return fruits.filter(fruit => fruit.origin === origin);
     },
     fruit: (_, { id }) => {
-      return fruits.find(fruit => fruit.id === Number(id));
+      if (id < 1) {
+        throw new UserInputError('Error de id, no deve ser menor a 1', {
+          argumentName: 'id'
+        })
+      }
+
+      const tree = fruits.find(fruit => fruit.id === Number(id));
+
+      if (tree) {
+        return tree;
+      } else {
+        throw new Error("Not Found!");
+      }
     }
   },
   Mutation: {
@@ -27,7 +40,7 @@ const resolvers = {
         bloom,
         maturation_fruit,
         life_cycle,
-        climatic_zone,
+        climatic_zone
       } = args;
 
       const newFruit = {
@@ -41,7 +54,7 @@ const resolvers = {
         bloom: bloom,
         maturation_fruit: maturation_fruit,
         life_cycle: life_cycle,
-        climatic_zone: climatic_zone,
+        climatic_zone: climatic_zone
       };
 
       fruits.push(newFruit);
