@@ -12,19 +12,16 @@ const resolvers = {
       return fruits.filter(fruit => fruit.origin === origin);
     },
     fruit: (_, { id }) => {
-      if (id < 1) {
-        throw new UserInputError('Error de id, no deve ser menor a 1', {
-          argumentName: 'id'
-        })
-      }
-
       const tree = fruits.find(fruit => fruit.id === Number(id));
 
-      if (tree) {
-        return tree;
-      } else {
-        throw new Error("Not Found!");
+      if (id < 1) {
+        throw new UserInputError('Error in the id, it must not be less than 1', {
+          argumentName: 'id'
+        });
       }
+
+      if (tree) return tree;
+      throw new Error("Tree Not Found!");
     }
   },
   Mutation: {

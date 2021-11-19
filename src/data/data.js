@@ -558,7 +558,7 @@ module.exports = [
     scientific_name: "Hylocereus undatus",
     tree_name: "Pitahaya",
     fruit_name: "Pitahaya",
-    family: "	Cactaceae",
+    family: "Cactaceae",
     origin: "America Central",
     description:
       "La pitahaya es una planta cactácea, y como tal, resistente a las sequías. La planta es un cactus suculento, rústico, de tallos largos triangulares. Suele enredarse en los árboles próximos alimentándose de la humedad de sus cortezas y trepa por las ramas a ocho o diez metros del suelo sin penetrar en tierra. La flor de la pitahaya, que es tubular, hermafrodita como la mayoría de las cactáceas, es bella pero breve, pues parece deslumbrante por la mañana y a medida que empieza a sentir el calor del sol se deshidrata súbitamente. Se abre una sola vez en las horas nocturnas y su penetrante aroma atrae a numerosos insectos. Se autofecunda pero también puede cruzarse, siendo los murciélagos los mejores polinizadores en su medio natural. La formación del fruto desde la polinización hasta la recolección dura de cuatro a ocho meses dependiendo de las temperaturas existentes.",
