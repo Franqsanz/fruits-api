@@ -6,21 +6,21 @@ const server = new ApolloServer({ typeDefs, resolvers });
 
 const { query } = createTestClient(server);
 
-// test("All fruits", async () => {
-//   const ALL_FRUIT = gql`
-//     query {
-//       fruits {
-//         id
-//       }
-//     }
-//   `;
+test("All fruits", async () => {
+  const ALL_FRUIT = gql`
+    query {
+      fruits {
+        id
+      }
+    }
+  `;
 
-//   const {
-//     data: { fruits }
-//   } = await query({ query: ALL_FRUIT });
+  const {
+    data: { fruits }
+  } = await query({ query: ALL_FRUIT });
 
-//   expect(fruits).toEqual([{ id: '27' }]);
-// });
+  expect(fruits).toEqual(expect.arrayContaining(fruits));
+});
 
 test("Find one fruit", async () => {
   const ONE_FRUIT = gql`
