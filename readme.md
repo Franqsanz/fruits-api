@@ -33,7 +33,7 @@ Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verifica si existe algún [i
 
 **Web:** [https://fruit-api.netlify.app/](https://fruit-api.netlify.app/)
 
-### Obtener el codigo de este proyecto
+## Obtener el codigo de este proyecto
 
 1. Clonar repositorio:
 ```sh
@@ -50,7 +50,15 @@ npm install
 # O con yarn
 yarn
 ```
-4. Una vez que instale todas las dependencias ejecute el siguiente comando:
+
+4. Ejecutar Testing (opcional):
+```sh
+npm test
+
+yarn test
+```
+
+5. Una vez que instale todas las dependencias ejecute el siguiente comando:
 ```sh
 npm start
 
@@ -226,17 +234,17 @@ Puedes agregar, actualizar y eliminar.
 ```graphql
 mutation addFruit {
  addFruit(
-   id: 9
-   scientific_name: ""
-   tree_name: ""
-   fruit_name: "Ciruela"
-   family: ""
-   origin: ""
-   description: ""
-   bloom: ""
-   maturation_fruit: ""
-   life_cycle: ""
-   climatic_zone: ""
+    id: 1
+   scientific_name: "Malus Domestica"
+   tree_name: "Manzano"
+   fruit_name: "Manzana"
+   family: "Rosaceae"
+   origin: "Asia Central"
+   description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
+   bloom: "Primavera"
+   maturation_fruit: "Finales del verano o otoño"
+   life_cycle: "60-80 años"
+   climatic_zone: "Frio"
  ) {
    id
    scientific_name
@@ -258,17 +266,17 @@ mutation addFruit {
 ```graphql
 mutation updateFruit {
   updateFruit(
-   id: 9
-   scientific_name: ""
-   tree_name: ""
-   fruit_name: "Ciruela"
-   family: ""
-   origin: ""
-   description: ""
-   bloom: ""
-   maturation_fruit: ""
-   life_cycle: ""
-   climatic_zone: ""
+    id: 1
+    scientific_name: "Malus Domestica"
+    tree_name: "Manzano"
+    fruit_name: "Manzana"
+    family: "Rosaceae"
+    origin: "Asia Central"
+    description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
+    bloom: "Primavera"
+    maturation_fruit: "Finales del verano o otoño"
+    life_cycle: "60-80 años"
+    climatic_zone: "Frio"
  ) {
    id
    scientific_name
