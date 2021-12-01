@@ -6,7 +6,7 @@
   <a aria-label="Netlify Status" href="https://app.netlify.com/sites/fruits-api/deploys">
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/dabb6e07-14c2-40af-bf96-2c1a00f43fc9/deploy-status">
   </a>
-  <a aria-label="License" href="[LICENSE](https://github.com/Franqsanz/fruits-api/actions)">
+  <a aria-label="Tests" href="https://github.com/Franqsanz/fruits-api/actions">
     <img alt="License" src="https://github.com/Franqsanz/fruits-api/workflows/Tests/badge.svg">
   </a>
   <a aria-label="License" href="LICENSE">
