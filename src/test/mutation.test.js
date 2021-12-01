@@ -16,7 +16,7 @@ test("Add fruit", async () => {
       fruit_name: "Manzana"
       family: "Rosaceae"
       origin: "Asia Central"
-      description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
+      description: "La manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
       bloom: "Primavera"
       maturation_fruit: "Finales del verano o otoño"
       life_cycle: "60-80 años"
@@ -48,7 +48,7 @@ test("Add fruit", async () => {
     fruit_name: "Manzana",
     family: "Rosaceae",
     origin: "Asia Central",
-    description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma",
+    description: "La manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma",
     bloom: "Primavera",
     maturation_fruit: "Finales del verano o otoño",
     life_cycle: "60-80 años",
@@ -66,7 +66,7 @@ test("Update fruit", async () => {
       fruit_name: "Manzana"
       family: "Rosaceae"
       origin: "Asia Central"
-      description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
+      description: "La manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
       bloom: "Primavera"
       maturation_fruit: "Finales del verano o otoño"
       life_cycle: "60-80 años"
@@ -98,7 +98,7 @@ test("Update fruit", async () => {
     fruit_name: "Manzana",
     family: "Rosaceae",
     origin: "Asia Central",
-    description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma",
+    description: "La manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma",
     bloom: "Primavera",
     maturation_fruit: "Finales del verano o otoño",
     life_cycle: "60-80 años",

@@ -51,18 +51,18 @@ npm install
 yarn
 ```
 
-4. Ejecutar Testing (opcional):
-```sh
-npm test
-
-yarn test
-```
-
-5. Una vez que instale todas las dependencias ejecute el siguiente comando:
+4. Una vez que instale todas las dependencias ejecute el siguiente comando:
 ```sh
 npm start
 
 yarn start
+```
+
+5. Ejecutar Testing (opcional):
+```sh
+npm test
+
+yarn test
 ```
 
 Una vez ejecutada la API, si todo sale bien debe ver en su terminal el siguiente mensaje: `Lambda server is listening on 9000`, abra su navegador y coloque en la URL `http://localhost:9000/graphql` y esto cargará el **GraphQL Playground**, debería ver lo siguiente:
@@ -305,4 +305,8 @@ mutation deleteFruit {
 ```
 
 ---
-Hecho con ❤ por [Franqsanz](https://franqsanz.netlify.app/)
+<footer align="center">
+  Hecho con ❤ por <a href="https://twitter.com/franqsanz">
+    Franco Andrés Sánchez
+  </a>
+</footer>
