@@ -6,6 +6,9 @@
   <a aria-label="Netlify Status" href="https://app.netlify.com/sites/fruits-api/deploys">
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/dabb6e07-14c2-40af-bf96-2c1a00f43fc9/deploy-status">
   </a>
+  <a aria-label="License" href="[LICENSE](https://github.com/Franqsanz/fruits-api/actions)">
+    <img alt="License" src="https://github.com/Franqsanz/fruits-api/workflows/Tests/badge.svg">
+  </a>
   <a aria-label="License" href="LICENSE">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg">
   </a>
@@ -308,5 +311,9 @@ mutation deleteFruit {
 <footer align="center">
   Hecho con ❤ por <a href="https://twitter.com/franqsanz">
     Franco Andrés Sánchez
+  </a>
+  <br />
+  <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
   </a>
 </footer>
