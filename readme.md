@@ -308,9 +308,13 @@ mutation deleteFruit {
 ```
 
 ---
-<footer align="center">
+<p align="center">
   Hecho con ❤ por <a href="https://twitter.com/franqsanz">
     Franco Andrés Sánchez
   </a>
   <br />
-</footer>
+  <br />
+  <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
+  </a>
+</p>
