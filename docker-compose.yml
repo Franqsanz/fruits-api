@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  fruits-api:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 9000:9000
+    volumes:
+      - "./:/usr/src/app/"
