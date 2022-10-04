@@ -68,6 +68,11 @@ npm test
 yarn test
 ```
 
+Alternativamente, puede usar Docker
+
+1. Abre tu terminal/herramienta de línea de comandos
+1. Ejecute `docker-compose up`
+
 Una vez ejecutada la API, si todo sale bien debe ver en su terminal el siguiente mensaje: `Lambda server is listening on 9000`, abra su navegador y coloque en la URL `http://localhost:9000/graphql` y esto cargará el **GraphQL Playground**, debería ver lo siguiente:
 
 ![playground](./playground.png)
