@@ -1,7 +1,7 @@
 <h1 align="center">Fruits API</h1>
 <p align="center">
   <a aria-label="Open in Visual Studio Code" href="https://open.vscode.dev/Franqsanz/fruits-api">
-    <img alt="Open in Visual Studio Code" src="https://open.vscode.dev/badges/open-in-vscode.svg">
+    <img alt="Open in Visual Studio Code" src="https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc">
   </a>
   <a aria-label="Netlify Status" href="https://app.netlify.com/sites/fruits-api/deploys">
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/dabb6e07-14c2-40af-bf96-2c1a00f43fc9/deploy-status">
