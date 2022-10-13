@@ -1190,4 +1190,123 @@ module.exports = [
       },
     ],
   },
+  {
+    id: 28,
+    scientific_name: "Punica granatum",
+    tree_name: "Pomegranate",
+    fruit_name: "pomegranate",
+    family: "Lythraceae",
+    origin: "Persia",
+    description:
+      "The pomegranate plant is a large shrub or small tree that has smooth, evergreen leaves and showy orange to red flowers",
+    bloom: "spring or summer",
+    life_cycle: "5 to 7 months",
+    climatic_zone: "Tropical",
+    producing_countries: [
+      {
+        country: "India",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "Iran",
+      },
+      {
+        country: "Turkey",
+      },
+      {
+        country: "Afganistan",
+      },
+      {
+        country: "US",
+      },
+      {
+        country: "Iraq",
+      },
+      {
+        country: "Pakistan",
+      },
+      {
+        country: "Syria",
+      },
+      {
+        country: "Spain",
+      },
+    ],
+  },
+  {
+    id: 29,
+    scientific_name: "Pyrus malus",
+    tree_name: "malus domestica",
+    fruit_name: "apple",
+    family: "Rosaceae",
+    origin: "Kazakhstan",
+    description:
+      " the fleshy, usually rounded red, yellow, or green edible pome fruit of a usually cultivated tree (genus Malus) of the rose family",
+    bloom: "early spring to late summer",
+    maturation_fruit: "",
+    life_cycle: "5-7 day",
+    climatic_zone: "USDA Hardiness Zones",
+    producing_countries: [
+      {
+        country: "China",
+      },
+      {
+        country: "US",
+      },
+      {
+        country: "Turkey",
+      },
+      {
+        country: "Poland",
+      },
+      {
+        country: "India",
+      },
+      {
+        country: "Iran",
+      },
+      {
+        country: "Italy",
+      },
+      {
+        country: "Chile",
+      },
+    ],
+  },
+  {
+    id: 30,
+    scientific_name: "Ananus sativuss",
+    tree_name: "Ananas comosus",
+    fruit_name: "pineapple",
+    family: "Bromeliaceae",
+    origin: "Brazilian rainforests",
+    description:
+      " a juicy, edible tropical fruit somewhat resembling a pine cone",
+    bloom: "during March",
+    maturation_fruit: "",
+    life_cycle: "2-3 year",
+    climatic_zone: "Tropical",
+    producing_countries: [
+      {
+        country: "Philippines",
+      },
+      {
+        country: "Costa Rica",
+      },
+      {
+        country: "Brazil",
+      },
+      {
+        country: "Indonesia",
+      },
+      {
+        country: "India",
+      },
+      {
+        country: "China",
+      },
+    ],
+  },
 ];
