@@ -1309,4 +1309,53 @@ module.exports = [
       },
     ],
   },
+  {
+    id: 31,
+    scientific_name: "Diospyros kaki",
+    tree_name: "Diospyros virginiana",
+    fruit_name: "Persimmon Fruit",
+    family: " Ebenaceae",
+    origin: "southern China",
+    description:
+      " Like the tomato, persimmons are not commonly considered to be berries, but morphologically the fruit is in fact a berry.",
+    bloom: "May to June",
+    maturation_fruit: "",
+    life_cycle: "60 years",
+    climatic_zone: "subtropical and temperate regions",
+    producing_countries: [
+      {
+        country: "Spain",
+      },
+      {
+        country: "Italy",
+      },
+      {
+        country: "Brazil",
+      },
+      {
+        country: "Korea",
+      },
+      {
+        country: "India",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "Japan",
+      },
+      {
+        country: "Isreal",
+      },
+      {
+        country: "USA",
+      },
+      {
+        country: "Uzbekistan",
+      },
+      {
+        country: "Azerbaijan",
+      },
+    ],
+  },
 ];
