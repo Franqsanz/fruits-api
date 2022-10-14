@@ -1309,4 +1309,42 @@ module.exports = [
       },
     ],
   },
+  
+  {
+    id: 31,
+    scientific_name: "Carica papaya",
+    tree_name: "Carica papaya",
+    fruit_name: "papaya",
+    family: "Caricaceae",
+    origin: "Mesoamerica, likely in southern Mexico.",
+    description:
+      "a large fleshy berry with smooth green skin that ripens to yellow or orange.",
+    bloom: "during summer",
+    maturation_fruit: "",
+    life_cycle: "3 to 4 years.",
+    climatic_zone: "high temperature, ample sunshine and adequate moisture in the soil and is highly sensitive to frost but it can also be grown in the mild sub-tropical regions of the country up to 1,000 m above the sea level",
+    producing_countries: [
+      {
+        country: "Brazil",
+      },
+      {
+        country: " India",
+      },
+      {
+        country: "Mexico",
+      },
+      {
+        country: "Indonesia",
+      },
+      {
+        country: "Nigeria",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "Thailand",
+      },
+    ],
+  },
 ];
