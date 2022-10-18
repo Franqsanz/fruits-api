@@ -79,24 +79,24 @@ Once the API is executed, if all goes well you should see in your terminal the f
 
 Obviously the playground will be empty, you should make the queries.
 
-## Intruducción
-Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API y le mostrará cómo hacer diferentes consultas.
+## Intruduction
+This documentation will help you become familiar with the Fruits API resources and show you how to make different queries.
 
-### Esquema de la API
+### API Schema
 | Key                 | Type   | Description                               |
 | ------------------- | ------ | ----------------------------------------- |
-| id                  | ID     | ID del árbol                              |
-| scientific_name     | String | Nombre científico del árbol               |
-| tree_name           | String | Nombre del árbol                          |
-| fruit_name          | String | Nombre de la fruta                        |
-| family              | String | Tipo de familia del árbol                 |
-| origin              | String | Origen del árbol                          |
-| description         | String | Breve descripción de árbol                |
-| bloom               | String | Fecha de floración del árbol              |
-| maturation_fruit    | String | Fecha de maduración del fruto             |
-| life_cycle          | String | Ciclo de vida del árbol                   |
-| climatic_zone       | String | Zona climática del árbol                  |
-| producing_countries | Array  | Países que producen los árboles frutales. |
+| id                  | ID     | Tree ID                            |
+| scientific_name     | String | Scientific name of the tree                |
+| tree_name           | String | Tree name                          |
+| fruit_name          | String | Fruit name                        |
+| family              | String | Tree family type                 |
+| origin              | String | Tree origin                          |
+| description         | String | Brief tree description                |
+| bloom               | String | Flowering date of the tree              |
+| maturation_fruit    | String | Fruit ripening date             |
+| life_cycle          | String | Tree life cycle                   |
+| climatic_zone       | String | Tree climate zone                  |
+| producing_countries | Array  | Countries that produce fruit trees. |
 
 ### Type `Query`
 
