@@ -22,11 +22,11 @@
 
 ---
 
-API GraphQL con datos de árboles frutales.
-Esta API esta construida con Apollo Server Lambda + Netlify Lambda.
+GraphQL API with fruit tree data.
+This API is built with Apollo Server Lambda + Netlify Lambda.
 
-> En este proyecto no estoy utilizando una base de datos.
-> Los datos estan en [data.js](./src/data/data.js), por si deseas agregar más información. :)
+> In this project I am not using a database.
+> The data is in [data.js](./src/data/data.js), in case you want to add more information :)
 
 ## Contribuir
 Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verifica si existe algún [issues](https://github.com/Franqsanz/fruits-api/issues), todos los PRs son bienvenidos.
