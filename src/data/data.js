@@ -1234,49 +1234,8 @@ module.exports = [
         country: "Spain",
       },
     ],
-  },
   {
     id: 29,
-    scientific_name: "Pyrus malus",
-    tree_name: "malus domestica",
-    fruit_name: "apple",
-    family: "Rosaceae",
-    origin: "Kazakhstan",
-    description:
-      " the fleshy, usually rounded red, yellow, or green edible pome fruit of a usually cultivated tree (genus Malus) of the rose family",
-    bloom: "early spring to late summer",
-    maturation_fruit: "",
-    life_cycle: "5-7 day",
-    climatic_zone: "USDA Hardiness Zones",
-    producing_countries: [
-      {
-        country: "China",
-      },
-      {
-        country: "US",
-      },
-      {
-        country: "Turkey",
-      },
-      {
-        country: "Poland",
-      },
-      {
-        country: "India",
-      },
-      {
-        country: "Iran",
-      },
-      {
-        country: "Italy",
-      },
-      {
-        country: "Chile",
-      },
-    ],
-  },
-  {
-    id: 30,
     scientific_name: "Ananus sativuss",
     tree_name: "Ananas comosus",
     fruit_name: "pineapple",
@@ -1310,7 +1269,7 @@ module.exports = [
     ],
   },
   {
-    id: 31,
+    id: 30,
     scientific_name: "Diospyros kaki",
     tree_name: "Diospyros virginiana",
     fruit_name: "Persimmon Fruit",
@@ -1357,5 +1316,38 @@ module.exports = [
         country: "Azerbaijan",
       },
     ],
+  },
+  {
+    id: 31,
+    scientific_name: "Actinidia deliciosa",
+    tree_name: "Kiwi vines",
+    fruit_name: "kiwi",
+    family: "Actinidiaceae",
+    origin: " mainland China and Taiwan",
+    description: "kiwi, (Actinidia deliciosa), also called kiwifruit or Chinese gooseberry, woody vine and edible fruit of the family Actinidiaceae. The plant is native to mainland China and Taiwan and is also grown commercially in New Zealand and California.",
+    bloom: "spring",
+    maturation_fruit: "September through November",
+    life_cycle: "3 years",
+    climatic_zone: "temperature remains at or below 70 C during the winter season",
+    producing_countries: [
+     {
+       country: "New Zealand"
+     },
+     {
+       country: "Italy"
+     },
+     {
+       country: "California"
+     },
+     {
+       country: "France"
+     },
+     {
+       country: "Greece"
+     },
+     {
+       country: "Chile"
+     },
+   ],
   },
 ];
