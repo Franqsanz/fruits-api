@@ -26,11 +26,12 @@ To get the project on your local computer, follow the instructions in [README.md
 - `git add .` add all the files you changed
 - `git commit -m 'message about the changes you made'` commit the changes to the repository
 - `git push origin NEW_BRANCH_NAME` to push the commits to GitHub
-## Solicitud de Extracción (PR)
+## Pull Request (PR)
 
-Cuando hayas subido la confirmación de cambios, crea una solicitud de extracción (Pull Request, PR), incluye:
+When you have pushed the change commit, create a Pull Request (PR), include:
 
-- [Vincula la solicitud de cambios a la propuesta](https://docs.github.com/es/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
-- Una descripción de lo que la solicitud añade al repositorio
+- [Linking a pull request to an issue](https://docs.github.com/es/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+- A description of what the request adds to the repository.
+- We may require changes before merging your request
 - Puede que requiramos cambios antes de fusionar tu solicitud
-- Si tienes algún problema o cuestión, no dudes en comunicarte
+- If you have any problems or questions, please do not hesitate to contact us
