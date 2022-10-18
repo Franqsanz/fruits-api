@@ -100,10 +100,10 @@ This documentation will help you become familiar with the Fruits API resources a
 
 ### Type `Query`
 
-#### Consigue todos los árboles
-Puede acceder a la lista de los árboles con la siguiente `query`
+#### Get all trees
+You can access the trees list with the following `query`
 
-Query de ejemplo:
+Query example:
 
 ```graphql
 query allFruits {
@@ -119,22 +119,22 @@ query allFruits {
 }
 ```
 
-Respuesta:
+Response:
 ```json
 {
   "data": {
     "fruits": [
       {
         "id": "1",
-        "scientific_name": "Malus Domestica",
-        "fruit_name": "Manzana",
-        "description": "La manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma redonda y sabor más o menos dulce, dependiendo de la variedad. La manzana es un árbol caducifolio, generalmente de 2 a 4,5 m (6 a 15 pies) de altura en cultivo y hasta 9 m (30 pies) en la naturaleza.",
+        "scientific_name": "Malus domestica",
+        "fruit_name": "Apple",
+        "description": "The apple is the fruit of the apple tree, a tree of the rosaceae family. It is a pome fruit with a round shape and a more or less sweet flavor, depending on the variety. The apple is a deciduous tree, generally 2 to 4.5 m (6 to 15 ft) tall in cultivation and up to 9 m (30 ft) in the wild..",
         "producing_countries": [
           {
             "country": "China",
           },
           {
-            "country": "Estados Unidos",
+            "country": "United States",
           },
           // ...
         ]
@@ -142,14 +142,14 @@ Respuesta:
       {
         "id": "2",
         "scientific_name": "Pyrus Communis",
-        "fruit_name": "Pera",
-        "description": "La pera es el fruto del peral, árbol de la familia de las rosáceas. El fruto es un pomo comestible de verde marron. Es una especie de árbol caducifolio, generalmente de 2 hasta 20 m de altura.",
+        "fruit_name": "Pear",
+        "description": "The pear is the fruit of the pear tree, a tree of the rosaceae family. The fruit is an edible knob of brownish green. It is a species of deciduous tree, generally 2 to 20 m high.",
         "producing_countries": [
           {
             "country": "China",
           },
           {
-            "country": "Italia",
+            "country": "Italy",
           },
           // ...
         ]
