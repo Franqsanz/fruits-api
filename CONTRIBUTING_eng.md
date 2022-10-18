@@ -7,9 +7,9 @@ Thanks for contributing to Fruits API. Before you begin, please note the followi
 1. If there is already an issue that you would like to claim, please comment on it so that it can be assigned to you.
 2. Or, if you find a problem that does not have an issue, please create one so that it can be reviewed, and thus accept your pull request (PR)
 
-## Obtener el Proyecto Local
+## Get the Local Project
 
-Para obtener el proyecto en tu ordenador local, sigue las instrucciones en el [README.md](readme.md)
+To get the project on your local computer, follow the instructions in [README.md](readme_eng.md)
 
 ## Hacer Cambios
 
