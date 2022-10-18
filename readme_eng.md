@@ -36,48 +36,48 @@ Read the [CONTRIBUTING.md](CONTRIBUTING.md) file or check if there are any [issu
 
 **Web:** [https://fruit-api.netlify.app/](https://fruit-api.netlify.app/)
 
-## Obtener el codigo de este proyecto
+## Get the code for this project
 
-1. Clonar repositorio:
+1. Clone repository:
 ```sh
 git clone https://github.com/Franqsanz/fruits-api.git
 ```
-2. Entrar al directorio del repositorio:
+2. Enter to the repository directory:
 ```sh
 cd fruits-api
 ```
-3. Instalar todas las dependecias:
+3. Install all dependencies:
 ```sh
 npm install
 
-# O con yarn
+# Or with yarn
 yarn
 ```
 
-4. Una vez que instale todas las dependencias ejecute el siguiente comando:
+4. Once all the dependencies are installed run the following command:
 ```sh
 npm start
 
 yarn start
 ```
 
-5. Ejecutar Testing (opcional):
+5. Run Testing (optional):
 ```sh
 npm test
 
 yarn test
 ```
 
-Alternativamente, puede usar Docker
+As an alternative, you can use Docker
 
-1. Abre tu terminal/herramienta de línea de comandos
-1. Ejecute `docker-compose up`
+1. Open your terminal/command line
+1. Run `docker-compose up`
 
-Una vez ejecutada la API, si todo sale bien debe ver en su terminal el siguiente mensaje: `Lambda server is listening on 9000`, abra su navegador y coloque en la URL `http://localhost:9000/graphql` y esto cargará el **GraphQL Playground**, debería ver lo siguiente:
+Once the API is executed, if all goes well you should see in your terminal the following message: `Lambda server is listening on 9000`, open your browser and put in the URL `http://localhost:9000/graphql` and this will load the **GraphQL Playground**, you should see the following:
 
 ![playground](./playground.png)
 
-Obviamente que el playground estará vacío usted deberá hacer las consultas.
+Obviously the playground will be empty, you should make the queries.
 
 ## Intruducción
 Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API y le mostrará cómo hacer diferentes consultas.
