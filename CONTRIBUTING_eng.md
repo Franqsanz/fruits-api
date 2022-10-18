@@ -1,11 +1,11 @@
-# Introducción
+# Introduction
 
-Gracias por contribuir a Fruits API. Antes de empezar, toma en cuenta lo próximo:
+Thanks for contributing to Fruits API. Before you begin, please note the following:
 
-## Propuestas de Problemas (Issues)
+## Issues
 
-1. Si ya existe una propuesta que quisieras reclamar, por favor comenta en ella para que se te asigne.
-2. O, si encuentras un problema que no tiene propuesta, por favor crea una para que se pueda revisar, y así aceptar tu solicitud de extracción (PR)
+1. If there is already an issue that you would like to claim, please comment on it so that it can be assigned to you.
+2. Or, if you find a problem that does not have an issue, please create one so that it can be reviewed, and thus accept your pull request (PR)
 
 ## Obtener el Proyecto Local
 
