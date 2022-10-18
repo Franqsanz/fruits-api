@@ -301,7 +301,7 @@ mutation updateFruit {
 }
 ```
 
-#### Como eliminar un árbol
+#### How to delete a tree
 
 ```graphql
 mutation deleteFruit {
@@ -314,7 +314,7 @@ mutation deleteFruit {
 
 ---
 <p align="center">
-  Hecho con ❤ por <a href="https://twitter.com/franqsanz">
+  Made with ❤ by <a href="https://twitter.com/franqsanz">
     Franco Andrés Sánchez
   </a>
   <br />
