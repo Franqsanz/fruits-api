@@ -237,22 +237,22 @@ You can add, update and delete.
 
 ⚠ **_All fields are required._**
 
-#### Como agregar un árbol
+#### How to add a tree
 
 ```graphql
 mutation addFruit {
  addFruit(
     id: 1
     scientific_name: "Malus Domestica"
-    tree_name: "Manzano"
-    fruit_name: "Manzana"
+    tree_name: "Apple"
+    fruit_name: "Apple"
     family: "Rosaceae"
     origin: "Asia Central"
-    description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
-    bloom: "Primavera"
-    maturation_fruit: "Finales del verano o otoño"
-    life_cycle: "60-80 años"
-    climatic_zone: "Frio"
+    description: "The Rosaceae apple is the fruit of the apple tree, a tree of the Rosaceae family. It is a pome-shaped fruit"
+    bloom: "Spring"
+    maturation_fruit: "Late summer or fall"
+    life_cycle: "60-80 years"
+    climatic_zone: "cold"
  ) {
     id
     scientific_name
