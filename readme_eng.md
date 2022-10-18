@@ -161,10 +161,10 @@ Response:
 }
 ```
 
-#### Consigue un solo árbol
-Puede obtener un solo árbol agregando el `id` como parametro: `(id: 5)`.
+#### Get a single tree
+You can get a single tree by adding the  `id` as parameter: `(id: 5)`.
 
-Query de ejemplo:
+Query example:
 
 ```graphql
 query oneFruit {
@@ -178,16 +178,16 @@ query oneFruit {
 }
 ```
 
-Respuesta:
+Response:
 ```json
 {
   "data": {
     "fruit": {
       "id": "5",
       "scientific_name": "Citrus x Tangerina",
-      "tree_name": "Mandarino",
-      "fruit_name": "Mandarina",
-      "family": "Rutáceae"
+      "tree_name": "Tangerine",
+      "fruit_name": "Tangerine",
+      "family": "Rutaceae"
     }
   }
 }
