@@ -232,10 +232,10 @@ Response:
 ```
 
 ### Type `Mutation`
-En esta API se pueden hacer Mutaciones, aunque los datos no se guardarán de forma persistente.
-Puedes agregar, actualizar y eliminar.
+In this API you can make Mutations, although the data will not be stored persistently.
+You can add, update and delete.
 
-⚠ **_Todos los campos son obligatorios._**
+⚠ **_All fields are required._**
 
 #### Como agregar un árbol
 
