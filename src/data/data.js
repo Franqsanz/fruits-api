@@ -1234,6 +1234,7 @@ module.exports = [
         country: "Spain",
       },
     ],
+  },
   {
     id: 29,
     scientific_name: "Ananus sativuss",
