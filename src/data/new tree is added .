@@ -1,0 +1,34 @@
+{
+  id: "32",
+  scientific_name: "Actinidia deliciosa",
+  tree_name: "Kiwi vines",
+  fruit_name: "kiwi",
+  family: "Actinidiaceae",
+  origin: " mainland China and Taiwan",
+  description: "kiwi, (Actinidia deliciosa), also called kiwifruit or Chinese gooseberry, woody vine and edible fruit of the family Actinidiaceae. The plant is native to mainland China and Taiwan and is also grown commercially in New Zealand and California.",
+  bloom: "spring",
+  maturation_fruit: "September through November",
+  life_cycle: "3 years",
+  climatic_zone: "temperature remains at or below 70 C during the winter season",
+  producing_countries: [
+   {
+    country: "New Zealand"
+   },
+    {
+    country: "Italy"
+   },
+    {
+    country: "California"
+   },
+    {
+    country: "France"
+   },
+    {
+    country: "Greece"
+   },
+   {
+   country: "Chile"
+   }
+   //...
+  ]
+},
