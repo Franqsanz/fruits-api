@@ -28,8 +28,8 @@ This API is built with Apollo Server Lambda + Netlify Lambda.
 > In this project I am not using a database.
 > The data is in [data.js](./src/data/data.js), in case you want to add more information :)
 
-## Contribuir
-Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verifica si existe algún [issues](https://github.com/Franqsanz/fruits-api/issues), todos los PRs son bienvenidos.
+## Contribute
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file or check if there are any [issues](https://github.com/Franqsanz/fruits-api/issues), all PRs are welcome.
 
 ## URLs
 **Playground:** [https://fruits-api.netlify.app/graphql](https://fruits-api.netlify.app/graphql)
