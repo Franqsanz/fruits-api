@@ -1351,4 +1351,103 @@ module.exports = [
      },
    ],
   },
+  {
+    id: 32,
+    scientific_name: "Prunus salicifolia",
+    tree_name: "cereza de monte o capulín",
+    fruit_name: "cereza de monte o capulín",
+    family: "Rosaceae",
+    origin: "Valle de México",
+    description:
+      "Fruto drupa (similar a la cereza), de pesado aroma, redondo, muy pequeño (de 1–2 cm de diámetro); de piel fina, brillante, roja o negruzca, raramente blanca o amarilla. El jugo de la pulpa es verde pálido, dulce o ligeramente ácida. Semilla esférica, rodeada por un endocarpio o hueso leñoso (almendra) de gusto amargo.",
+    bloom: "De enero a marzo en México; en Guatemala y El Salvador de enero a mayo",
+    maturation_fruit: "De julio a agosto en México. En Guatemala en septiembre; en El Salvador se extiende de diciembre a abril.",
+    life_cycle: "40-60 años",
+    climatic_zone: "subtropical a subtemplado",
+    producing_countries: [
+      {
+        country: "México",
+      },
+      {
+        country: "Colombia",
+      },
+      {
+        country: "Ecuador",
+      },
+      {
+        country: "Perú",
+      },
+      {
+        country: "Bolivia",
+      },
+      {
+        country: "El Salvador",
+      },
+      {
+        country: "Guatemala",
+      },
+    ],
+  },
+  {
+    id: 33,
+    scientific_name: "Citrus × limetta",
+    tree_name: "limetta dulce, limón dulce, lima dulce y/o simplemente lima",
+    fruit_name: "limetta dulce, limón dulce, lima dulce y/o simplemente lima",
+    family: "	Rutaceae",
+    origin: "Sur y sureste de Asia",
+    description:
+      "La piel del fruto es amarillo claro cuando está maduro; la piel del fruto es blanca y de unos 5 mm de gruesa. La pulpa es verdosa y el zumo es más dulce que ácido.",
+    bloom: "Está en flor la mayor parte del año, produciendo fruta constantemente, aunque la mayor parte se produce en primavera",
+    maturation_fruit: "Tarda unos tres meses en alcanzar la forma madura",
+    life_cycle: "40-70 años",
+    climatic_zone: "semitropical",
+    producing_countries: [
+      {
+        country: "México",
+      },
+      {
+        country: "Marruecos",
+      },
+      {
+        country: "Italia",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "Sudamérica",
+      },
+    ],
+  },
+  {
+    id: 34,
+    scientific_name: "Inga jinicuil",
+    tree_name: "cuajiniquil, cuijinicuil, cuinicuil o vaina",
+    fruit_name: "cuajiniquil, cuijinicuil, cuinicuil o vaina",
+    family: "	Fabaceae",
+    origin: "Valle de México",
+    description:
+      "Fruto legumbre (vaina), cilíndrica, de 8-18 cm de largo, verdosas o amarillentas al madurar, dentro las semillas van recubiertas de pulpa blanca y fibrosa similar al algodón la cual se generalmente se puede consumir en diferentes formas de golosinas o helado y posee un sabor similar a la vainilla.",
+    bloom: "Pprimavera",
+    maturation_fruit: "Otoño",
+    life_cycle: "60-70 años",
+    climatic_zone: "Trópico húmedo y Templado húmedo",
+    producing_countries: [
+      {
+        country: "México",
+      },
+      {
+        country: "Colombia",
+      },
+      {
+        country: "Centroamérica",
+      },
+      {
+        country: "Venezuela",
+      },
+      {
+        country: "Sudamérica",
+      },
+    ],
+  },
 ];
