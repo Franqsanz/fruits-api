@@ -1388,4 +1388,35 @@ module.exports = [
       },
     ],
   },
+  {
+    id: 33,
+    scientific_name: "Citrus × limetta",
+    tree_name: "limetta dulce, limón dulce, lima dulce y/o simplemente lima",
+    fruit_name: "limetta dulce, limón dulce, lima dulce y/o simplemente lima",
+    family: "	Rutaceae",
+    origin: "Sur y sureste de Asia",
+    description:
+      "La piel del fruto es amarillo claro cuando está maduro; la piel del fruto es blanca y de unos 5 mm de gruesa. La pulpa es verdosa y el zumo es más dulce que ácido.",
+    bloom: "Está en flor la mayor parte del año, produciendo fruta constantemente, aunque la mayor parte se produce en primavera",
+    maturation_fruit: "Tarda unos tres meses en alcanzar la forma madura",
+    life_cycle: "40-70 años",
+    climatic_zone: "semitropical",
+    producing_countries: [
+      {
+        country: "México",
+      },
+      {
+        country: "Marruecos",
+      },
+      {
+        country: "Italia",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "Sudamérica",
+      },
+    ],
+  },
 ];
