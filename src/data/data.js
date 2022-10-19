@@ -1351,4 +1351,41 @@ module.exports = [
      },
    ],
   },
+  {
+    id: 32,
+    scientific_name: "Prunus salicifolia",
+    tree_name: "cereza de monte o capulín",
+    fruit_name: "cereza de monte o capulín",
+    family: "Rosaceae",
+    origin: "Valle de México",
+    description:
+      "Fruto drupa (similar a la cereza), de pesado aroma, redondo, muy pequeño (de 1–2 cm de diámetro); de piel fina, brillante, roja o negruzca, raramente blanca o amarilla. El jugo de la pulpa es verde pálido, dulce o ligeramente ácida. Semilla esférica, rodeada por un endocarpio o hueso leñoso (almendra) de gusto amargo.",
+    bloom: "De enero a marzo en México; en Guatemala y El Salvador de enero a mayo",
+    maturation_fruit: "De julio a agosto en México. En Guatemala en septiembre; en El Salvador se extiende de diciembre a abril.",
+    life_cycle: "40-60 años",
+    climatic_zone: "subtropical a subtemplado",
+    producing_countries: [
+      {
+        country: "México",
+      },
+      {
+        country: "Colombia",
+      },
+      {
+        country: "Ecuador",
+      },
+      {
+        country: "Perú",
+      },
+      {
+        country: "Bolivia",
+      },
+      {
+        country: "El Salvador",
+      },
+      {
+        country: "Guatemala",
+      },
+    ],
+  },
 ];
