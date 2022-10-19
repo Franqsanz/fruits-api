@@ -1419,4 +1419,35 @@ module.exports = [
       },
     ],
   },
+  {
+    id: 34,
+    scientific_name: "Inga jinicuil",
+    tree_name: "cuajiniquil, cuijinicuil, cuinicuil o vaina",
+    fruit_name: "cuajiniquil, cuijinicuil, cuinicuil o vaina",
+    family: "	Fabaceae",
+    origin: "Valle de México",
+    description:
+      "Fruto legumbre (vaina), cilíndrica, de 8-18 cm de largo, verdosas o amarillentas al madurar, dentro las semillas van recubiertas de pulpa blanca y fibrosa similar al algodón la cual se generalmente se puede consumir en diferentes formas de golosinas o helado y posee un sabor similar a la vainilla.",
+    bloom: "Pprimavera",
+    maturation_fruit: "Otoño",
+    life_cycle: "60-70 años",
+    climatic_zone: "Trópico húmedo y Templado húmedo",
+    producing_countries: [
+      {
+        country: "México",
+      },
+      {
+        country: "Colombia",
+      },
+      {
+        country: "Centroamérica",
+      },
+      {
+        country: "Venezuela",
+      },
+      {
+        country: "Sudamérica",
+      },
+    ],
+  },
 ];
