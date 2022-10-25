@@ -1481,4 +1481,35 @@ module.exports = [
       },
     ],
   },
+  {
+    id: 36,
+    scientific_name: "Juglans",
+    tree_name: "Nuez",
+    fruit_name: "Nuez",
+    family: "Juglandaceae",
+    origin: "Asia Central",
+    description:
+      "La nuez es el fruto del nogal, de forma redondeada u ovoide, con una cáscara dura y rugosa de color pardo rojiza. La parte comestible de su interior tiene un sabor dulce particular.",
+    bloom: "De febrero a marzo",
+    maturation_fruit: "De marzo a junio",
+    life_cycle: "30 años o más",
+    climatic_zone: "climas cálidos y húmedos",
+    producing_countries: [
+      {
+        country: "Estados Unidos",
+      },
+      {
+        country: "China",
+      },
+      {
+        country: "Irán",
+      },
+      {
+        country: "México",
+      },
+      {
+        country: "Tuquía",
+      },
+    ],
+  },
 ];
