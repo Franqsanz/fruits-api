@@ -1393,7 +1393,7 @@ module.exports = [
     scientific_name: "Citrus × limetta",
     tree_name: "limetta dulce, limón dulce, lima dulce y/o simplemente lima",
     fruit_name: "limetta dulce, limón dulce, lima dulce y/o simplemente lima",
-    family: "	Rutaceae",
+    family: "Rutaceae",
     origin: "Sur y sureste de Asia",
     description:
       "La piel del fruto es amarillo claro cuando está maduro; la piel del fruto es blanca y de unos 5 mm de gruesa. La pulpa es verdosa y el zumo es más dulce que ácido.",
@@ -1424,11 +1424,11 @@ module.exports = [
     scientific_name: "Inga jinicuil",
     tree_name: "cuajiniquil, cuijinicuil, cuinicuil o vaina",
     fruit_name: "cuajiniquil, cuijinicuil, cuinicuil o vaina",
-    family: "	Fabaceae",
+    family: "Fabaceae",
     origin: "Valle de México",
     description:
       "Fruto legumbre (vaina), cilíndrica, de 8-18 cm de largo, verdosas o amarillentas al madurar, dentro las semillas van recubiertas de pulpa blanca y fibrosa similar al algodón la cual se generalmente se puede consumir en diferentes formas de golosinas o helado y posee un sabor similar a la vainilla.",
-    bloom: "Pprimavera",
+    bloom: "Primavera",
     maturation_fruit: "Otoño",
     life_cycle: "60-70 años",
     climatic_zone: "Trópico húmedo y Templado húmedo",
@@ -1447,6 +1447,37 @@ module.exports = [
       },
       {
         country: "Sudamérica",
+      },
+    ],
+  },
+  {
+    id: 35,
+    scientific_name: "Prunus dulcis",
+    tree_name: "Almendro",
+    fruit_name: "Almendra",
+    family: "Rosaceae",
+    origin: "Asia Central",
+    description:
+      "Se trata de un fruto de cáscara un tanto dura y quebradiza de color marrón-beige, cuya semilla es la parte comestible. Tiene forma de lágrima aplanada, y mide 1-2 cm de largo.",
+    bloom: "Entre finales de enero y febrero, pudiendo llegar a florecer a mediados de marzo",
+    maturation_fruit: "Entre 7 y 8 meses después de florecer",
+    life_cycle: "25 años",
+    climatic_zone: "Templado",
+    producing_countries: [
+      {
+        country: "Estados Unidos",
+      },
+      {
+        country: "España",
+      },
+      {
+        country: "Irán",
+      },
+      {
+        country: "Marruecos",
+      },
+      {
+        country: "Tuquía",
       },
     ],
   },
