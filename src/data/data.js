@@ -1543,4 +1543,29 @@ module.exports = [
       },
     ],
   },
+  {
+    id: 38,
+    scientific_name: "Eriobotrya japonica",
+    tree_name: "Níspero japonés",
+    fruit_name: "Níspero",
+    family: "Rosaceae",
+    origin: "Sudeste Chino",
+    description:
+      "Cuando maduro de color amarillo o anaranjado, a veces rojizo; pulpa suculenta de sabor dulce, ácido o subácido, blanca, amarilla o anaranjada; con semillas en número variable (de 1 a 5), grandes, angulosas, de sección transversal anchamente elíptica, de testa lisa, de color pardo.",
+    bloom: "Otoño",
+    maturation_fruit: "Principios de primavera",
+    life_cycle: "30-50 años",
+    climatic_zone: "Cálido",
+    producing_countries: [
+      {
+        country: "Japón",
+      },
+      {
+        country: "Israel",
+      },
+      {
+        country: "Brasil",
+      },
+    ],
+  },
 ];
