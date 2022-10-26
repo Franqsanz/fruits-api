@@ -1545,26 +1545,20 @@ module.exports = [
   },
   {
     id: 38,
-    scientific_name: "Eriobotrya japonica",
-    tree_name: "Níspero japonés",
-    fruit_name: "Níspero",
+    scientific_name: "Crataegus mexicana",
+    tree_name: "Tejocotera",
+    fruit_name: "Tejocote",
     family: "Rosaceae",
-    origin: "Sudeste Chino",
+    origin: "Mesoamérica",
     description:
-      "Cuando maduro de color amarillo o anaranjado, a veces rojizo; pulpa suculenta de sabor dulce, ácido o subácido, blanca, amarilla o anaranjada; con semillas en número variable (de 1 a 5), grandes, angulosas, de sección transversal anchamente elíptica, de testa lisa, de color pardo.",
-    bloom: "Otoño",
-    maturation_fruit: "Principios de primavera",
-    life_cycle: "30-50 años",
-    climatic_zone: "Cálido",
+      "El fruto (similar a una pequeña manzana) es un de color amarillo-anaranjado de 1 a 2 cm de diámetro, las semillas son lisas y de color café, rodeadas por un hueso leñoso.",
+    bloom: "De enero a abril",
+    maturation_fruit: "De noviembre a diciembre",
+    life_cycle: "Hasta 40 años",
+    climatic_zone: "Templado y frío",
     producing_countries: [
       {
-        country: "Japón",
-      },
-      {
-        country: "Israel",
-      },
-      {
-        country: "Brasil",
+        country: "México",
       },
     ],
   },
