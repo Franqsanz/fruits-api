@@ -23,10 +23,10 @@
 ---
 
 API GraphQL con datos de árboles frutales.
-Esta API esta construida con Apollo Server Lambda + Netlify Lambda.
+Esta API está construida con Apollo Server Lambda + Netlify Lambda.
 
 > En este proyecto no estoy utilizando una base de datos.
-> Los datos estan en [data.js](./src/data/data.js), por si deseas agregar más información. :)
+> Los datos están en [data.js](./src/data/data.js), por si deseas agregar más información. :)
 
 ## Contribuir
 Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verifica si existe algún [issues](https://github.com/Franqsanz/fruits-api/issues), todos los PRs son bienvenidos.
@@ -36,7 +36,7 @@ Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verifica si existe algún [i
 
 **Web:** [https://fruit-api.netlify.app/](https://fruit-api.netlify.app/)
 
-## Obtener el codigo de este proyecto
+## Obtener el código de este proyecto
 
 1. Clonar repositorio:
 ```sh
@@ -46,7 +46,7 @@ git clone https://github.com/Franqsanz/fruits-api.git
 ```sh
 cd fruits-api
 ```
-3. Instalar todas las dependecias:
+3. Instalar todas las dependencias:
 ```sh
 npm install
 
@@ -79,7 +79,7 @@ Una vez ejecutada la API, si todo sale bien debe ver en su terminal el siguiente
 
 Obviamente que el playground estará vacío usted deberá hacer las consultas.
 
-## Intruducción
+## Introducción
 Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API y le mostrará cómo hacer diferentes consultas.
 
 ### Esquema de la API
@@ -143,7 +143,7 @@ Respuesta:
         "id": "2",
         "scientific_name": "Pyrus Communis",
         "fruit_name": "Pera",
-        "description": "La pera es el fruto del peral, árbol de la familia de las rosáceas. El fruto es un pomo comestible de verde marron. Es una especie de árbol caducifolio, generalmente de 2 hasta 20 m de altura.",
+        "description": "La pera es el fruto del peral, árbol de la familia de las rosáceas. El fruto es un pomo comestible de verde marrón. Es una especie de árbol caducifolio, generalmente de 2 hasta 20 m de altura.",
         "producing_countries": [
           {
             "country": "China",
@@ -162,7 +162,7 @@ Respuesta:
 ```
 
 #### Consigue un solo árbol
-Puede obtener un solo árbol agregando el `id` como parametro: `(id: 5)`.
+Puede obtener un solo árbol agregando el `id` como parámetro: `(id: 5)`.
 
 Query de ejemplo:
 
@@ -248,7 +248,7 @@ mutation addFruit {
     fruit_name: "Manzana"
     family: "Rosaceae"
     origin: "Asia Central"
-    description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
+    description: "La Rosaceae manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
     bloom: "Primavera"
     maturation_fruit: "Finales del verano o otoño"
     life_cycle: "60-80 años"
