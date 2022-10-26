@@ -20,6 +20,8 @@
   </a>
 </p>
 
+<center><em><a href="readme_eng.md">Read this in English</a></em></center>
+
 ---
 
 API GraphQL con datos de árboles frutales.
