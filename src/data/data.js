@@ -1512,4 +1512,35 @@ module.exports = [
       },
     ],
   },
+  {
+    id: 37,
+    scientific_name: "Corylus avellana",
+    tree_name: "Avellano",
+    fruit_name: "Avellana",
+    family: "Betulaceae",
+    origin: "Valle de México",
+    description:
+      "La avellana es el fruto del avellano, pequeño, redondeado, cáscara de color canela y carne blanco-amarillenta, de sabor dulce y rica en aceite.",
+    bloom: "Primavera",
+    maturation_fruit: "La maduración tarda de 7 a 8 meses y entonces el involucro se abre liberando la avellana.",
+    life_cycle: "20-25 años",
+    climatic_zone: "Mediterráneo",
+    producing_countries: [
+      {
+        country: "Tuquía",
+      },
+      {
+        country: "Italia",
+      },
+      {
+        country: "Azerbaiyán",
+      },
+      {
+        country: "Estados Unidos",
+      },
+      {
+        country: "China",
+      },
+    ],
+  },
 ];
