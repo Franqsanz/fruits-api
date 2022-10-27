@@ -20,90 +20,92 @@
   </a>
 </p>
 
+<center><em><a href="readme_es.md">Leer en Español</a></em></center>
+
 ---
 
-API GraphQL con datos de árboles frutales.
-Esta API esta construida con Apollo Server Lambda + Netlify Lambda.
+GraphQL API with fruit tree data.
+This API is built with Apollo Server Lambda + Netlify Lambda.
 
-> En este proyecto no estoy utilizando una base de datos.
-> Los datos estan en [data.js](./src/data/data.js), por si deseas agregar más información. :)
+> In this project I am not using a database.
+> The data is in [data.js](./src/data/data.js), in case you want to add more information :)
 
-## Contribuir
-Lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) o verifica si existe algún [issues](https://github.com/Franqsanz/fruits-api/issues), todos los PRs son bienvenidos.
+## Contribute
+Read the [CONTRIBUTING.md](CONTRIBUTING_eng.md) file or check if there are any [issues](https://github.com/Franqsanz/fruits-api/issues), all PRs are welcome.
 
 ## URLs
 **Playground:** [https://fruits-api.netlify.app/graphql](https://fruits-api.netlify.app/graphql)
 
 **Web:** [https://fruit-api.netlify.app/](https://fruit-api.netlify.app/)
 
-## Obtener el codigo de este proyecto
+## Get the code for this project
 
-1. Clonar repositorio:
+1. Clone repository:
 ```sh
 git clone https://github.com/Franqsanz/fruits-api.git
 ```
-2. Entrar al directorio del repositorio:
+2. Enter to the repository directory:
 ```sh
 cd fruits-api
 ```
-3. Instalar todas las dependecias:
+3. Install all dependencies:
 ```sh
 npm install
 
-# O con yarn
+# Or with yarn
 yarn
 ```
 
-4. Una vez que instale todas las dependencias ejecute el siguiente comando:
+4. Once all the dependencies are installed run the following command:
 ```sh
 npm start
 
 yarn start
 ```
 
-5. Ejecutar Testing (opcional):
+5. Run Testing (optional):
 ```sh
 npm test
 
 yarn test
 ```
 
-Alternativamente, puede usar Docker
+As an alternative, you can use Docker
 
-1. Abre tu terminal/herramienta de línea de comandos
-1. Ejecute `docker-compose up`
+1. Open your terminal/command line
+1. Run `docker-compose up`
 
-Una vez ejecutada la API, si todo sale bien debe ver en su terminal el siguiente mensaje: `Lambda server is listening on 9000`, abra su navegador y coloque en la URL `http://localhost:9000/graphql` y esto cargará el **GraphQL Playground**, debería ver lo siguiente:
+Once the API is executed, if all goes well you should see in your terminal the following message: `Lambda server is listening on 9000`, open your browser and put in the URL `http://localhost:9000/graphql` and this will load the **GraphQL Playground**, you should see the following:
 
 ![playground](./playground.png)
 
-Obviamente que el playground estará vacío usted deberá hacer las consultas.
+Obviously the playground will be empty, you should make the queries.
 
-## Intruducción
-Esta documentación lo ayudará a familiarizarse con los recursos de Fruits API y le mostrará cómo hacer diferentes consultas.
+## Intruduction
+This documentation will help you become familiar with the Fruits API resources and show you how to make different queries.
 
-### Esquema de la API
+### API Schema
 | Key                 | Type   | Description                               |
 | ------------------- | ------ | ----------------------------------------- |
-| id                  | ID     | ID del árbol                              |
-| scientific_name     | String | Nombre científico del árbol               |
-| tree_name           | String | Nombre del árbol                          |
-| fruit_name          | String | Nombre de la fruta                        |
-| family              | String | Tipo de familia del árbol                 |
-| origin              | String | Origen del árbol                          |
-| description         | String | Breve descripción de árbol                |
-| bloom               | String | Fecha de floración del árbol              |
-| maturation_fruit    | String | Fecha de maduración del fruto             |
-| life_cycle          | String | Ciclo de vida del árbol                   |
-| climatic_zone       | String | Zona climática del árbol                  |
-| producing_countries | Array  | Países que producen los árboles frutales. |
+| id                  | ID     | Tree ID                            |
+| scientific_name     | String | Scientific name of the tree                |
+| tree_name           | String | Tree name                          |
+| fruit_name          | String | Fruit name                        |
+| family              | String | Tree family type                 |
+| origin              | String | Tree origin                          |
+| description         | String | Brief tree description                |
+| bloom               | String | Flowering date of the tree              |
+| maturation_fruit    | String | Fruit ripening date             |
+| life_cycle          | String | Tree life cycle                   |
+| climatic_zone       | String | Tree climate zone                  |
+| producing_countries | Array  | Countries that produce fruit trees. |
 
 ### Type `Query`
 
-#### Consigue todos los árboles
-Puede acceder a la lista de los árboles con la siguiente `query`
+#### Get all trees
+You can access the trees list with the following `query`
 
-Query de ejemplo:
+Query example:
 
 ```graphql
 query allFruits {
@@ -119,22 +121,22 @@ query allFruits {
 }
 ```
 
-Respuesta:
+Response:
 ```json
 {
   "data": {
     "fruits": [
       {
         "id": "1",
-        "scientific_name": "Malus Domestica",
-        "fruit_name": "Manzana",
-        "description": "La manzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma redonda y sabor más o menos dulce, dependiendo de la variedad. La manzana es un árbol caducifolio, generalmente de 2 a 4,5 m (6 a 15 pies) de altura en cultivo y hasta 9 m (30 pies) en la naturaleza.",
+        "scientific_name": "Malus domestica",
+        "fruit_name": "Apple",
+        "description": "The apple is the fruit of the apple tree, a tree of the rosaceae family. It is a pome fruit with a round shape and a more or less sweet flavor, depending on the variety. The apple is a deciduous tree, generally 2 to 4.5 m (6 to 15 ft) tall in cultivation and up to 9 m (30 ft) in the wild..",
         "producing_countries": [
           {
             "country": "China",
           },
           {
-            "country": "Estados Unidos",
+            "country": "United States",
           },
           // ...
         ]
@@ -142,14 +144,14 @@ Respuesta:
       {
         "id": "2",
         "scientific_name": "Pyrus Communis",
-        "fruit_name": "Pera",
-        "description": "La pera es el fruto del peral, árbol de la familia de las rosáceas. El fruto es un pomo comestible de verde marron. Es una especie de árbol caducifolio, generalmente de 2 hasta 20 m de altura.",
+        "fruit_name": "Pear",
+        "description": "The pear is the fruit of the pear tree, a tree of the rosaceae family. The fruit is an edible knob of brownish green. It is a species of deciduous tree, generally 2 to 20 m high.",
         "producing_countries": [
           {
             "country": "China",
           },
           {
-            "country": "Italia",
+            "country": "Italy",
           },
           // ...
         ]
@@ -161,10 +163,10 @@ Respuesta:
 }
 ```
 
-#### Consigue un solo árbol
-Puede obtener un solo árbol agregando el `id` como parametro: `(id: 5)`.
+#### Get a single tree
+You can get a single tree by adding the  `id` as parameter: `(id: 5)`.
 
-Query de ejemplo:
+Query example:
 
 ```graphql
 query oneFruit {
@@ -178,25 +180,25 @@ query oneFruit {
 }
 ```
 
-Respuesta:
+Response:
 ```json
 {
   "data": {
     "fruit": {
       "id": "5",
       "scientific_name": "Citrus x Tangerina",
-      "tree_name": "Mandarino",
-      "fruit_name": "Mandarina",
-      "family": "Rutáceae"
+      "tree_name": "Tangerine",
+      "fruit_name": "Tangerine",
+      "family": "Rutaceae"
     }
   }
 }
 ```
 
-#### Filtrado de árboles
-También puede filtrar los árboles por `family` o por `origin`, por ejemplo: `(family: "Rosaceae")` o `(origin: "Asia")`.
+#### Tree filtering
+You can also filter trees by `family` or  `origin`, for example: `(family: "Rosaceae")` or `(origin: "Asia")`.
 
-Query de ejemplo:
+Query example:
 
 ```graphql
 query filterFruit {
@@ -209,21 +211,21 @@ query filterFruit {
 }
 ```
 
-Respuesta:
+Response:
 ```json
 {
   "data": {
     "filterFruitsFam": [
       {
         "id": "1",
-        "tree_name": "Manzano",
-        "fruit_name": "Manzana",
+        "tree_name": "Apple",
+        "fruit_name": "Apple",
         "family": "Rosaceae"
       },
       {
         "id": "2",
-        "tree_name": "Peral",
-        "fruit_name": "Pera",
+        "tree_name": "Pear",
+        "fruit_name": "Pear",
         "family": "Rosaceae"
       }
     ]
@@ -232,27 +234,27 @@ Respuesta:
 ```
 
 ### Type `Mutation`
-En esta API se pueden hacer Mutaciones, aunque los datos no se guardarán de forma persistente.
-Puedes agregar, actualizar y eliminar.
+In this API you can make Mutations, although the data will not be stored persistently.
+You can add, update and delete.
 
-⚠ **_Todos los campos son obligatorios._**
+⚠ **_All fields are required._**
 
-#### Como agregar un árbol
+#### How to add a tree
 
 ```graphql
 mutation addFruit {
  addFruit(
     id: 1
     scientific_name: "Malus Domestica"
-    tree_name: "Manzano"
-    fruit_name: "Manzana"
+    tree_name: "Apple"
+    fruit_name: "Apple"
     family: "Rosaceae"
     origin: "Asia Central"
-    description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
-    bloom: "Primavera"
-    maturation_fruit: "Finales del verano o otoño"
-    life_cycle: "60-80 años"
-    climatic_zone: "Frio"
+    description: "The Rosaceae apple is the fruit of the apple tree, a tree of the Rosaceae family. It is a pome-shaped fruit"
+    bloom: "Spring"
+    maturation_fruit: "Late summer or fall"
+    life_cycle: "60-80 years"
+    climatic_zone: "cold"
  ) {
     id
     scientific_name
@@ -269,22 +271,22 @@ mutation addFruit {
 }
 ```
 
-#### Como actualizar un árbol
+#### How to upgrade a tree
 
 ```graphql
 mutation updateFruit {
   updateFruit(
     id: 1
     scientific_name: "Malus Domestica"
-    tree_name: "Manzano"
-    fruit_name: "Manzana"
+    tree_name: "Apple"
+    fruit_name: "Apple"
     family: "Rosaceae"
-    origin: "Asia Central"
-    description: "La RosaceaeRosaceaemanzana es el fruto del manzano, árbol de la familia de las rosáceas. Es una fruta pomácea de forma"
-    bloom: "Primavera"
-    maturation_fruit: "Finales del verano o otoño"
-    life_cycle: "60-80 años"
-    climatic_zone: "Frio"
+    origin: "Central Asia"
+    description: "The Rosaceae apple is the fruit of the apple tree, a tree of the Rosaceae family. It is a pome-shaped fruit"
+    bloom: "Spring"
+    maturation_fruit: "Late summer or fall"
+    life_cycle: "60-80 years"
+    climatic_zone: "Cold"
  ) {
     id
     scientific_name
@@ -301,7 +303,7 @@ mutation updateFruit {
 }
 ```
 
-#### Como eliminar un árbol
+#### How to delete a tree
 
 ```graphql
 mutation deleteFruit {
@@ -314,7 +316,7 @@ mutation deleteFruit {
 
 ---
 <p align="center">
-  Hecho con ❤ por <a href="https://twitter.com/franqsanz">
+  Made with ❤ by <a href="https://twitter.com/franqsanz">
     Franco Andrés Sánchez
   </a>
   <br />
