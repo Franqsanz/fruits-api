@@ -20,7 +20,7 @@
   </a>
 </p>
 
-[read in english](readme.md)
+<center><em><a href="readme.md">Read this in English</a></em></center>
 
 ---
 

@@ -20,7 +20,7 @@
   </a>
 </p>
 
-[leer en español](readme_es.md)
+<center><em><a href="readme_es.md">Leer en Español</a></em></center>
 
 ---
 
