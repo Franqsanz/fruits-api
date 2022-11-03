@@ -18,6 +18,10 @@
   <a aria-label="GitHub contributors" href="https://github.com/Franqsanz/fruits-api/graphs/contributors">
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Franqsanz/fruits-api">
   </a>
+  <img alt="Open Source Love" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
+  <a aria-label="made-with-javascript" href="https://github.com/Franqsanz/fruits-api/fork">
+    <img alt="made-with-javascript" src="https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg?logo=javascript&color=ffc700">
+  </a>
 </p>
 
 <center><em><a href="readme_es.md">Leer en Español</a></em></center>
