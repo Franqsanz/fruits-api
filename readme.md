@@ -24,7 +24,10 @@
   </a>
 </p>
 
-<center><em><a href="readme_es.md">Leer en Español</a></em></center>
+---
+
+## Other Language
+- <em><a href="readme_es.md">Spanish / Español</a></em>
 
 ---
 
