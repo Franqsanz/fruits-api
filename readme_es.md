@@ -24,8 +24,6 @@
   </a>
 </p>
 
----
-
 ## Otro Lenguaje
 - <em><a href="readme.md">English / Ingles</a></em>
 
